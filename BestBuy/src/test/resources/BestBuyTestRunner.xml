@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
@@ -12,7 +11,7 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.bestbuy.com/"/>
 
-    <test name = "Employee Information Services">
+    <test name = "Best Buy search information">
         <classes>
             <class name="search.InputSearch"/>
         </classes>

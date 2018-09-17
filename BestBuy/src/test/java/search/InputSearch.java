@@ -7,9 +7,9 @@ import org.testng.annotations.Test;
 
 public class InputSearch extends CommonAPI {
 
-@Test
-    public void search(){
-    driver.findElement(By.id("gh-search-input")).sendKeys("iPhone", Keys.ENTER);
-    driver.close();
-}
+    @Test
+    public void search() throws InterruptedException {
+    driver.findElement(By.xpath("")).click();
+    Thread.sleep(5000);
+    }
 }
