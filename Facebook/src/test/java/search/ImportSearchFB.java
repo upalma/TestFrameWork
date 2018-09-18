@@ -22,4 +22,14 @@ public class ImportSearchFB extends CommonAPI {
         driver.findElement(By.cssSelector("#u_0_e")).sendKeys("Palma", Keys.ENTER);
         Thread.sleep(5000);
     }
+    @Test
+    public void insertPhoneNumber() throws InterruptedException{
+        driver.findElement(By.xpath("//*[@id=\"u_0_h\"]")).sendKeys("7183759087", Keys.ENTER);
+        Thread.sleep(5000);
+    }
+    @Test
+    public void clickLoginButton() throws InterruptedException{
+        driver.findElement(By.cssSelector(" #u_0_w")).click();
+        Thread.sleep(5000);
+    }
 }
