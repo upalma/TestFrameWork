@@ -27,8 +27,6 @@ public WebDriver driver = null;
         driver.get(url);
 
     }
-
-
     @AfterMethod
     public void cleanUp(){
        driver.close();

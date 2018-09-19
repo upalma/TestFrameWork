@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="35dea8a2-08d1-4033-bf31-1375e0a161e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/test-classes/BestBuyTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/target/test-classes/BestBuyTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestBuy/target/test-classes/search/InputSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/BestBuy/target/test-classes/search/InputSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/ImportSearchFB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/ImportSearchFB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TestAutomation$_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookTestRunner_xml.ic" NAME="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml Coverage Results" MODIFIED="1537297487907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TestAutomation$_MavenProject_TestAutomation_BestBuy_src_test_resources_BestBuyTestRunner_xml.ic" NAME="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml Coverage Results" MODIFIED="1537224552539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TestAutomation$InputSearch.ic" NAME="InputSearch Coverage Results" MODIFIED="1537194582370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>search.*</FILTER>
@@ -26,39 +40,41 @@
     <session id="243737734">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="7" />
           <entry key="fxml" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="8" />
-          <entry key="xml" value="13" />
+          <entry key="java" value="11" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="7" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="8" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="659" />
-          <entry key="xml" value="160" />
+          <entry key="java" value="1295" />
+          <entry key="xml" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="659" />
-          <entry key="XML" value="160" />
+          <entry key="JAVA" value="1295" />
+          <entry key="XML" value="165" />
         </counts>
       </usages-collector>
     </session>
@@ -68,29 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="133">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,17 +97,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="95">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,45 +125,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="58" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="58" />
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/Generic.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -181,12 +162,14 @@
         <option value="$PROJECT_DIR$/BestBuy/src/main/resources/BestBuyTestRunner.xml.fxml" />
         <option value="$PROJECT_DIR$/Generic/brwoser-driver/name.java" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
         <option value="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java" />
       </list>
     </option>
@@ -194,15 +177,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="BestBuy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="BestBuy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -217,10 +191,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1022" />
-    <option name="y" value="22" />
-    <option name="width" value="601" />
-    <option name="height" value="825" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,9 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +261,14 @@
             <path>
               <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,27 +307,35 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537233661310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537336946775" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Facebook/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Generic/brwoser-driver" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Facebook/src/test" />
       <recent name="$PROJECT_DIR$/BestBuy/src/test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/brwoser-driver" />
-      <recent name="$PROJECT_DIR$/Facebook/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ImportSearchFB">
+  <component name="RunManager" selected="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml">
     <configuration name="ImportSearchFB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
@@ -380,8 +367,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputSearch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BestBuy" />
+    <configuration name="ImportSearchFB.clickOnLogUpButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.*" />
@@ -389,24 +376,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputSearch.search" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BestBuy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
-      <option name="METHOD_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.ImportSearchFB" />
+      <option name="METHOD_NAME" value="clickOnLogUpButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -414,9 +385,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/MavenProject/TestAutomation/BestBuy/src/test/resources/BestBuyTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BestBuy" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
+    <configuration name="LogIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.LogIn" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookLogIntRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -435,19 +422,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.InputSearch" />
-      <item itemvalue="TestNG.InputSearch.search" />
-      <item itemvalue="TestNG./MavenProject/TestAutomation/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
+      <item itemvalue="TestNG.ImportSearchFB.clickOnLogUpButton" />
+      <item itemvalue="TestNG.LogIn" />
+      <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookLogIntRunner.xml" />
       <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" />
       <item itemvalue="TestNG.ImportSearchFB" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ImportSearchFB" />
-        <item itemvalue="TestNG.InputSearch" />
         <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" />
-        <item itemvalue="TestNG./MavenProject/TestAutomation/BestBuy/src/test/resources/BestBuyTestRunner.xml" />
-        <item itemvalue="TestNG.InputSearch.search" />
+        <item itemvalue="TestNG.ImportSearchFB" />
+        <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookLogIntRunner.xml" />
+        <item itemvalue="TestNG.LogIn" />
+        <item itemvalue="TestNG.ImportSearchFB.clickOnLogUpButton" />
       </list>
     </recent_temporary>
   </component>
@@ -465,40 +452,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 01m 07s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_logIn4 - 2018.09.19 at 01h 33m 04s.xml">
+      <configuration name="ImportSearchFB.logIn4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 02m 43s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_logIn4 - 2018.09.19 at 01h 33m 53s.xml">
+      <configuration name="ImportSearchFB.logIn4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 04m 50s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_logIn4 - 2018.09.19 at 01h 34m 55s.xml">
+      <configuration name="ImportSearchFB.logIn4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 05m 52s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_logIn4 - 2018.09.19 at 01h 36m 21s.xml">
+      <configuration name="ImportSearchFB.logIn4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 07m 24s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_logIn5 - 2018.09.19 at 01h 42m 34s.xml">
+      <configuration name="ImportSearchFB.logIn5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 12m 28s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="ImportSearchFB_clickOnLogUpButton - 2018.09.19 at 01h 43m 09s.xml">
+      <configuration name="ImportSearchFB.clickOnLogUpButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 13m 57s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="LogIn - 2018.09.19 at 01h 48m 39s.xml">
+      <configuration name="LogIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 15m 46s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="LogIn - 2018.09.19 at 01h 51m 16s.xml">
+      <configuration name="LogIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 17m 47s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookLogIntRunner_xml - 2018.09.19 at 01h 55m 12s.xml">
+      <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookLogIntRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB - 2018.09.17 at 21h 19m 03s.xml">
-      <configuration name="ImportSearchFB" configurationId="TestNG" />
+    <history-entry file="_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookTestRunner_xml - 2018.09.19 at 01h 58m 53s.xml">
+      <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81445783" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -509,12 +495,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.18554217" side_tool="true" weight="0.18526466" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30120483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35301206" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38313252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31084338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4079127" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4611187" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3615894" />
@@ -526,8 +512,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49719626" visible="true" weight="0.10658083" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50280374" side_tool="true" weight="0.25873363" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.4944238" visible="true" weight="0.15808298" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5055762" side_tool="true" weight="0.15808298" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81445783" visible="true" weight="0.18526466" />
@@ -572,76 +558,148 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/Generic.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/BestBuyTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="551">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="570">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/search/InputSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="286" selection-start-line="286" selection-end-line="286" />
+          <folding>
+            <element signature="e#11035#11036#0" expanded="true" />
+            <element signature="e#11078#11079#0" expanded="true" />
+            <element signature="e#14803#14804#0" expanded="true" />
+            <element signature="e#14865#14866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+          <folding>
+            <element signature="e#20954#20955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/RegularImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="275">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
