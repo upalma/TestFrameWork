@@ -15,8 +15,8 @@ public class LogIn extends CommonAPI {
     //login positive testing: correct user name and correct password
     @Test
     public void logIn()throws InterruptedException{
-        driver.findElement(By.cssSelector("#email")).sendKeys("dkfjkdjkf");
-        driver.findElement(By.cssSelector("#pass")).sendKeys("1234asdf");
+        driver.findElement(By.cssSelector("#email")).sendKeys("ub13@yahoo.com");
+        driver.findElement(By.cssSelector("#pass")).sendKeys("abfjdf");
         driver.findElement(By.xpath("//*[@id=\"u_0_2\"]")).click();
         Thread.sleep(5000);
     }

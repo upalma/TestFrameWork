@@ -3,6 +3,7 @@ package search;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ImportSearchFB extends CommonAPI {
@@ -38,21 +39,11 @@ public class ImportSearchFB extends CommonAPI {
         driver.findElement(By.xpath("//*[@id=\"u_0_h\"]")).sendKeys("7183759087", Keys.ENTER);
         Thread.sleep(5000);
     }
-//    @Test
-//    public void clickOnBirthdayMonth()throws InterruptedException{
-//        driver.findElement(By.cssSelector("#month")).click();
-//        Thread.sleep(5000);
-//    }
-//    @Test
-//    public void clickOnBirthdayDate()throws InterruptedException{
-//        driver.findElement(By.xpath("//*[@id=\"day\"]")).click();
-//        Thread.sleep(5000);
-//    }
-//    @Test
-//    public void clickOnBirthdayYear()throws InterruptedException{
-//        driver.findElement(By.cssSelector("#year")).click();
-//        Thread.sleep(5000);
-//    }
+    @Test
+    public void clickOnBirthdayMonth()throws InterruptedException{
+        driver.findElement(By.cssSelector("#month")).click();
+        Thread.sleep(5000);
+    }
     @Test
     public void enterNewPassword()throws InterruptedException{
         driver.findElement(By.cssSelector("#u_0_o")).sendKeys("abcd1234", Keys.ENTER);
