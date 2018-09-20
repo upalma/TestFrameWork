@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="29" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-20T15:37:08Z" name="Facebook Automation Script " finished-at="2018-09-20T15:44:23Z" duration-ms="435635">
+    <groups>
+    </groups>
+    <test started-at="2018-09-20T15:37:08Z" name="Facebook Test case" finished-at="2018-09-20T15:44:23Z" duration-ms="435635">
+      <class name="search.LogIn">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:39:55Z" name="setUp" finished-at="2018-09-20T15:39:58Z" duration-ms="3644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:39:58Z" name="logIn" finished-at="2018-09-20T15:40:05Z" duration-ms="6366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:05Z" name="cleanUp" finished-at="2018-09-20T15:40:05Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:05Z" name="setUp" finished-at="2018-09-20T15:40:11Z" duration-ms="5970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn1()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:11Z" name="logIn1" finished-at="2018-09-20T15:40:17Z" duration-ms="6592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:17Z" name="cleanUp" finished-at="2018-09-20T15:40:17Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:17Z" name="setUp" finished-at="2018-09-20T15:40:23Z" duration-ms="5221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn2()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:23Z" name="logIn2" finished-at="2018-09-20T15:40:33Z" duration-ms="10199" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="u_0_2"]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58012}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f279ab2b88d28dc25623fcfbb4fc0f2c
+*** Element info: {Using=xpath, value=//*[@id="u_0_2"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="u_0_2"]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58012}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f279ab2b88d28dc25623fcfbb4fc0f2c
+*** Element info: {Using=xpath, value=//*[@id="u_0_2"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at search.LogIn.logIn2(LogIn.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:33Z" name="cleanUp" finished-at="2018-09-20T15:40:33Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:33Z" name="setUp" finished-at="2018-09-20T15:40:40Z" duration-ms="6766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn3()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:40Z" name="logIn3" finished-at="2018-09-20T15:40:46Z" duration-ms="6287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn3 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:46Z" name="cleanUp" finished-at="2018-09-20T15:40:46Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:46Z" name="setUp" finished-at="2018-09-20T15:40:53Z" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn4()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:53Z" name="logIn4" finished-at="2018-09-20T15:40:59Z" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn4 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:59Z" name="cleanUp" finished-at="2018-09-20T15:40:59Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:40:59Z" name="setUp" finished-at="2018-09-20T15:41:06Z" duration-ms="6463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn5()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:06Z" name="logIn5" finished-at="2018-09-20T15:41:13Z" duration-ms="6996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn5 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:13Z" name="cleanUp" finished-at="2018-09-20T15:41:13Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:13Z" name="setUp" finished-at="2018-09-20T15:41:19Z" duration-ms="5923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn6()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:19Z" name="logIn6" finished-at="2018-09-20T15:41:25Z" duration-ms="6047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn6 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:25Z" name="cleanUp" finished-at="2018-09-20T15:41:25Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:25Z" name="setUp" finished-at="2018-09-20T15:41:32Z" duration-ms="6920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openFacebookBrowser()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:32Z" name="openFacebookBrowser" finished-at="2018-09-20T15:41:37Z" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookBrowser -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.LogIn@79da8dc5]" started-at="2018-09-20T15:41:37Z" name="cleanUp" finished-at="2018-09-20T15:41:37Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.LogIn -->
+      <class name="search.Click">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:43:45Z" name="setUp" finished-at="2018-09-20T15:43:50Z" duration-ms="4891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnBirthdayDate()[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:43:50Z" name="clickOnBirthdayDate" finished-at="2018-09-20T15:43:55Z" duration-ms="5101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBirthdayDate -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:43:55Z" name="cleanUp" finished-at="2018-09-20T15:44:04Z" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:44:04Z" name="setUp" finished-at="2018-09-20T15:44:10Z" duration-ms="5932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnBirthdayYear()[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:44:10Z" name="clickOnBirthdayYear" finished-at="2018-09-20T15:44:15Z" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBirthdayYear -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.Click@67080771]" started-at="2018-09-20T15:44:15Z" name="cleanUp" finished-at="2018-09-20T15:44:23Z" duration-ms="7738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.Click -->
+      <class name="search.ImportSearchFB">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:08Z" name="setUp" finished-at="2018-09-20T15:37:14Z" duration-ms="6710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnBirthdayMonth()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:14Z" name="clickOnBirthdayMonth" finished-at="2018-09-20T15:37:19Z" duration-ms="5107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBirthdayMonth -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:19Z" name="cleanUp" finished-at="2018-09-20T15:37:37Z" duration-ms="17550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:37Z" name="setUp" finished-at="2018-09-20T15:37:43Z" duration-ms="6032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnFemalePointer()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:43Z" name="clickOnFemalePointer" finished-at="2018-09-20T15:37:48Z" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFemalePointer -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:48Z" name="cleanUp" finished-at="2018-09-20T15:37:48Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:48Z" name="setUp" finished-at="2018-09-20T15:37:55Z" duration-ms="7074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnFemaleWord()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:37:55Z" name="clickOnFemaleWord" finished-at="2018-09-20T15:38:00Z" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFemaleWord -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:00Z" name="cleanUp" finished-at="2018-09-20T15:38:00Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:00Z" name="setUp" finished-at="2018-09-20T15:38:06Z" duration-ms="5212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnLogUpButton()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:06Z" name="clickOnLogUpButton" finished-at="2018-09-20T15:38:11Z" duration-ms="5112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogUpButton -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:11Z" name="cleanUp" finished-at="2018-09-20T15:38:11Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:11Z" name="setUp" finished-at="2018-09-20T15:38:15Z" duration-ms="4468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnLoginButton()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:15Z" name="clickOnLoginButton" finished-at="2018-09-20T15:38:22Z" duration-ms="6537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:22Z" name="cleanUp" finished-at="2018-09-20T15:38:22Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:22Z" name="setUp" finished-at="2018-09-20T15:38:29Z" duration-ms="6572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnMalePointer()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:29Z" name="clickOnMalePointer" finished-at="2018-09-20T15:38:34Z" duration-ms="5078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMalePointer -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:34Z" name="cleanUp" finished-at="2018-09-20T15:38:34Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:34Z" name="setUp" finished-at="2018-09-20T15:38:40Z" duration-ms="6002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnMaleWord()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:40Z" name="clickOnMaleWord" finished-at="2018-09-20T15:38:45Z" duration-ms="5080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMaleWord -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:45Z" name="cleanUp" finished-at="2018-09-20T15:38:45Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:45Z" name="setUp" finished-at="2018-09-20T15:38:50Z" duration-ms="4904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterEmailAddress()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:50Z" name="enterEmailAddress" finished-at="2018-09-20T15:38:57Z" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailAddress -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:57Z" name="cleanUp" finished-at="2018-09-20T15:38:57Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:38:57Z" name="setUp" finished-at="2018-09-20T15:39:02Z" duration-ms="5748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterFirstNameBox()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:02Z" name="enterFirstNameBox" finished-at="2018-09-20T15:39:08Z" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFirstNameBox -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:08Z" name="cleanUp" finished-at="2018-09-20T15:39:08Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:08Z" name="setUp" finished-at="2018-09-20T15:39:13Z" duration-ms="5821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterLastNameBox()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:13Z" name="enterLastNameBox" finished-at="2018-09-20T15:39:19Z" duration-ms="5155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLastNameBox -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:19Z" name="cleanUp" finished-at="2018-09-20T15:39:19Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:19Z" name="setUp" finished-at="2018-09-20T15:39:25Z" duration-ms="6095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterNewPassword()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:25Z" name="enterNewPassword" finished-at="2018-09-20T15:39:30Z" duration-ms="5168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNewPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:30Z" name="cleanUp" finished-at="2018-09-20T15:39:30Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:30Z" name="setUp" finished-at="2018-09-20T15:39:37Z" duration-ms="7169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="insertPhoneNumber()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:37Z" name="insertPhoneNumber" finished-at="2018-09-20T15:39:42Z" duration-ms="5186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertPhoneNumber -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:42Z" name="cleanUp" finished-at="2018-09-20T15:39:43Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:43Z" name="setUp" finished-at="2018-09-20T15:39:50Z" duration-ms="6974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openFacebookBrowser()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:50Z" name="openFacebookBrowser" finished-at="2018-09-20T15:39:55Z" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookBrowser -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.ImportSearchFB@c333c60]" started-at="2018-09-20T15:39:55Z" name="cleanUp" finished-at="2018-09-20T15:39:55Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.ImportSearchFB -->
+      <class name="search.HomePage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:41:37Z" name="setUp" finished-at="2018-09-20T15:41:44Z" duration-ms="7136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickHome()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:41:44Z" name="clickHome" finished-at="2018-09-20T15:42:01Z" duration-ms="16562" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"_1vp5"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58181}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 60cc5259d9bb2cae07fe7b8f582009fc
+*** Element info: {Using=class name, value=_1vp5}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"_1vp5"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58181}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 60cc5259d9bb2cae07fe7b8f582009fc
+*** Element info: {Using=class name, value=_1vp5}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at search.HomePage.clickHome(HomePage.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHome -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:01Z" name="cleanUp" finished-at="2018-09-20T15:42:01Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:01Z" name="setUp" finished-at="2018-09-20T15:42:07Z" duration-ms="5607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:07Z" name="logIn" finished-at="2018-09-20T15:42:13Z" duration-ms="6288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:13Z" name="cleanUp" finished-at="2018-09-20T15:42:13Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:13Z" name="setUp" finished-at="2018-09-20T15:42:19Z" duration-ms="6064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn1()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:19Z" name="logIn1" finished-at="2018-09-20T15:42:29Z" duration-ms="10246" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="u_0_2"]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58241}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f0fde7aa4e127c855b79412e6bd1fbf8
+*** Element info: {Using=xpath, value=//*[@id="u_0_2"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="u_0_2"]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Uzzals-MacBook-Pro.local', ip: '2604:2000:6b01:b000:0:0:0:1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/mp/q48t92j91dz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58241}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f0fde7aa4e127c855b79412e6bd1fbf8
+*** Element info: {Using=xpath, value=//*[@id="u_0_2"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at search.LogIn.logIn1(LogIn.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:29Z" name="cleanUp" finished-at="2018-09-20T15:42:29Z" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:29Z" name="setUp" finished-at="2018-09-20T15:42:34Z" duration-ms="4615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn2()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:34Z" name="logIn2" finished-at="2018-09-20T15:42:41Z" duration-ms="6719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:41Z" name="cleanUp" finished-at="2018-09-20T15:42:41Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:41Z" name="setUp" finished-at="2018-09-20T15:42:47Z" duration-ms="6229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn3()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:47Z" name="logIn3" finished-at="2018-09-20T15:42:53Z" duration-ms="6192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn3 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:53Z" name="cleanUp" finished-at="2018-09-20T15:42:53Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:42:53Z" name="setUp" finished-at="2018-09-20T15:43:00Z" duration-ms="6584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn4()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:00Z" name="logIn4" finished-at="2018-09-20T15:43:07Z" duration-ms="6968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn4 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:07Z" name="cleanUp" finished-at="2018-09-20T15:43:07Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:07Z" name="setUp" finished-at="2018-09-20T15:43:12Z" duration-ms="5022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn5()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:12Z" name="logIn5" finished-at="2018-09-20T15:43:19Z" duration-ms="7064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn5 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:19Z" name="cleanUp" finished-at="2018-09-20T15:43:19Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:19Z" name="setUp" finished-at="2018-09-20T15:43:26Z" duration-ms="7121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logIn6()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:26Z" name="logIn6" finished-at="2018-09-20T15:43:33Z" duration-ms="6577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn6 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:33Z" name="cleanUp" finished-at="2018-09-20T15:43:33Z" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:33Z" name="setUp" finished-at="2018-09-20T15:43:40Z" duration-ms="6764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openFacebookBrowser()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:40Z" name="openFacebookBrowser" finished-at="2018-09-20T15:43:45Z" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookBrowser -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:search.HomePage@1eb5174b]" started-at="2018-09-20T15:43:45Z" name="cleanUp" finished-at="2018-09-20T15:43:45Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- search.HomePage -->
+    </test> <!-- Facebook Test case -->
+  </suite> <!-- Facebook Automation Script  -->
+</testng-results>
