@@ -20,16 +20,19 @@ public WebDriver driver = null;
 @Parameters({"url"})
 @BeforeMethod
     public void setUp(@Optional("https://www.facebook.com/") String url){
-        System.setProperty("webdriver.chrome.driver","/MavenProject/TestAutomation/Generic/brwoser-driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver",
+                "/MavenProject/TestAutomation/Generic/brwoser-driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //driver.get("https://www.bestbuy.com/");
         driver.get(url);
 
     }
+
     @AfterMethod
     public void cleanUp(){
-       driver.close();
+       driver.quit();
     }
+
 }
 

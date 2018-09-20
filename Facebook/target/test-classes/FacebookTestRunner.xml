@@ -13,7 +13,7 @@
         <class name="search.ImportSearchFB"/>
             <class name="search.LogIn"/>
             <class name="search.HomePage"/>
-            <class name="search.Click"/>
+            <class name="search.TestHomeClick"/>
         </classes>
     </test>
 </suite>

@@ -2,7 +2,6 @@ package search;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
 public class LogIn extends CommonAPI {
@@ -14,11 +13,12 @@ public class LogIn extends CommonAPI {
     }
     //login positive testing: correct user name and correct password
     @Test
-    public void logIn()throws InterruptedException{
-        driver.findElement(By.cssSelector("#email")).sendKeys("ub13@yahoo.com");
-        driver.findElement(By.cssSelector("#pass")).sendKeys("abfjdf");
+    public void logIn(){
+
+        driver.findElement(By.cssSelector("#email")).sendKeys("kfjklsdjfkds.com");
+        driver.findElement(By.cssSelector("#pass")).sendKeys("kgkdfgjfdgjk");
         driver.findElement(By.xpath("//*[@id=\"u_0_2\"]")).click();
-        Thread.sleep(5000);
+
     }
     //login negative testing: correct user name and wrong password
     @Test
