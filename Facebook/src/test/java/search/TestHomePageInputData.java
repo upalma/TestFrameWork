@@ -21,10 +21,10 @@ public class TestHomePageInputData extends HomePageInputData {
         locatorTypeCssSecector("#email","palma.ub13@gmail.com");
         Thread.sleep(5000);
     }
-    @Test
-    public void enterFirstNameBox() {
-        locatorTypeName("firstname","Uzzal");
-    }
+//    @Test
+//    public void enterFirstNameBox() {
+//        locatorTypeName("firstname","Uzzal");
+//    }
     @Test
     public void enterLastNameBox () {
         locatorTypeCssSecector("#u_0_e","Palma");

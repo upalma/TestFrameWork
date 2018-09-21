@@ -1,3 +1,5 @@
-/MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomeClick.java
-/MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomeLogIn.java
+/MavenProject/TestAutomation/Facebook/src/test/java/search/TestFacebookLogIn.java
+/MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomePageClick.java
+/MavenProject/TestAutomation/Facebook/src/test/java/search/TestLogInNegative_Positive.java
+/MavenProject/TestAutomation/Facebook/src/test/java/search/TestNewFacebookSignUp.java
 /MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomePageInputData.java

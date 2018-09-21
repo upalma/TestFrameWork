@@ -1,18 +1,16 @@
 package search;
 
-import base.CommonAPI;
-import home.HomeLogIn;
-import org.openqa.selenium.By;
+import home.LogInNegative_Positive;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestHomeLogIn extends HomeLogIn {
-    HomeLogIn homeLogIn;
+public class TestLogInNegative_Positive extends LogInNegative_Positive {
+    LogInNegative_Positive homeLogIn;
 
     @BeforeMethod
     public void initialization(){
-        homeLogIn= PageFactory.initElements(driver,HomeLogIn.class);
+        homeLogIn= PageFactory.initElements(driver, LogInNegative_Positive.class);
     }
     //positive testing
     @Test

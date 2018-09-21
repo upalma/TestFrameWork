@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.openqa.selenium.support.FindBy;
 
-public class HomeLogIn extends CommonAPI{
+public class LogInNegative_Positive extends CommonAPI{
     @FindBy(css = "#email") WebElement userName;
     @FindBy(css="#pass") WebElement password;
 
