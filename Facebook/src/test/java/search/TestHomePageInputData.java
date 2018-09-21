@@ -33,8 +33,5 @@ public class TestHomePageInputData extends HomePageInputData {
     public void insertPhoneNumber(){
         locatorTypeXpath("//*[@id=\"u_0_h\"]","7183759087");
     }
-//    @Test
-//    public void enterNewPassword(){
-//        locatorTypeXpath("//*[@id=\"u_0_l\"]", "abcd1234");
-//    }
+
 }

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestHomeClick extends HomeClick {
+public class TestHomePageClick extends HomeClick {
 //HomeClick homeClick;
 //    @BeforeMethod
 //    public void initialization(){ homeClick= PageFactory.initElements(driver, HomeClick.class); }
@@ -32,7 +32,7 @@ public class TestHomeClick extends HomeClick {
     }
     @Test
     public void clickOnMalePointer(){
-      locatorTypeCssSecector("#u_0_7");
+      locatorTypeId("u_0_7");
     }
     @Test
     public void clickOnMaleWord(){

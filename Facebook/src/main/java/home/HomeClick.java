@@ -3,8 +3,14 @@ package home;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class HomeClick extends CommonAPI {
+    @FindBy(css = "#email") WebElement clickOn_userNameBox;
+    @FindBy(css = "#email") WebElement clickOn_userPasswordBox;
+
+
     //Click method
     public void locatorTypeCssSecector(String locator){
         driver.findElement(By.cssSelector(locator));

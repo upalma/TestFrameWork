@@ -8,10 +8,8 @@ import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.openqa.selenium.support.FindBy;
 
 public class HomeLogIn extends CommonAPI{
-    @FindBy(css = "#email")
-    public static WebElement userName;
-    @FindBy(css="#pass")
-    public static WebElement password;
+    @FindBy(css = "#email") WebElement userName;
+    @FindBy(css="#pass") WebElement password;
 
     public void logInWithcorrectUserAndPassword() {
         userName.sendKeys("dkfjkdjfk");
