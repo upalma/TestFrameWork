@@ -10,21 +10,13 @@
   <parameter name="url" value="https://www.facebook.com/"/>
   <test thread-count="5" name="Facebook Test case(failed)" verbose="0">
     <classes>
-      <class name="search.LogIn">
+      <class name="search.TestHomeClick">
         <methods>
+          <include name="clickOnMalePointer"/>
           <include name="setUp"/>
           <include name="cleanUp"/>
-          <include name="logIn2"/>
         </methods>
-      </class> <!-- search.LogIn -->
-      <class name="search.HomePage">
-        <methods>
-          <include name="logIn1"/>
-          <include name="setUp"/>
-          <include name="clickHome"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- search.HomePage -->
+      </class> <!-- search.TestHomeClick -->
     </classes>
   </test> <!-- Facebook Test case(failed) -->
 </suite> <!-- Failed suite [Facebook Automation Script ] -->

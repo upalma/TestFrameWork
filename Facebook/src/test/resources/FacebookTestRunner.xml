@@ -10,10 +10,9 @@
     <parameter name="url" value="https://www.facebook.com/"/>
     <test name = "Facebook Test case">
         <classes>
-        <class name="search.ImportSearchFB"/>
-            <class name="search.TestHomeLogIn"/>
-            <class name="search.HomePage"/>
             <class name="search.TestHomeClick"/>
+            <class name="search.TestHomeLogIn"/>
+            <class name="search.TestHomePageInputData"/>
         </classes>
     </test>
 </suite>
