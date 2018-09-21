@@ -11,7 +11,7 @@
     <test name = "Facebook Test case">
         <classes>
         <class name="search.ImportSearchFB"/>
-            <class name="search.LogIn"/>
+            <class name="search.TestHomeLogIn"/>
             <class name="search.HomePage"/>
             <class name="search.TestHomeClick"/>
         </classes>

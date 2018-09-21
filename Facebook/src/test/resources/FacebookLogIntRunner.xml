@@ -5,7 +5,7 @@
     <parameter name="url" value="https://www.facebook.com/"/>
     <test name = "Facebook Test case">
         <classes>
-        <class name="search.LogIn"/>
+        <class name="search.TestHomeLogIn"/>
         </classes>
     </test>
 </suite>

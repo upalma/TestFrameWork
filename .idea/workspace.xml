@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dea8a2-08d1-4033-bf31-1375e0a161e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeLogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/Click.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookLogIntRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookLogIntRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/Click.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/ImportSearchFB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/ImportSearchFB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogIn.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,37 +41,38 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="8" />
+          <entry key="class" value="9" />
           <entry key="fxml" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="20" />
+          <entry key="java" value="21" />
           <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
+          <entry key="CLASS" value="9" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="21" />
           <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="8" />
-          <entry key="java" value="1953" />
+          <entry key="dummy" value="16" />
+          <entry key="java" value="2413" />
           <entry key="xml" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1953" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JAVA" value="2413" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="XML" value="263" />
         </counts>
       </usages-collector>
@@ -91,83 +83,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="121">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
                 <element signature="e#871#872#0" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeLogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/HomeLogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
+            <state relative-caret-position="551">
               <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
@@ -197,12 +189,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="400">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -262,6 +252,7 @@
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeClick.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/home/HomeLogIn.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeLogIn.java" />
       </list>
     </option>
   </component>
@@ -297,7 +288,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="251" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -324,6 +315,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -396,28 +389,51 @@
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="ImportSearchFB" type="1a9f42e2:ClassTreeNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537478959846" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537488958625" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -445,59 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogIn">
-    <configuration name="LogIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.LogIn" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogIn.logIn2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.LogIn" />
-      <option name="METHOD_NAME" value="logIn2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogIn.logIn3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.LogIn" />
-      <option name="METHOD_NAME" value="logIn3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TestHomeClick" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
@@ -514,7 +478,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomeClick.clickOnFemalePointer" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHomeLogIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
         <pattern>
@@ -523,8 +487,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.TestHomeClick" />
-      <option name="METHOD_NAME" value="clickOnFemalePointer" />
+      <option name="MAIN_CLASS_NAME" value="search.TestHomeLogIn" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHomeLogIn.logInFB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.TestHomeLogIn" />
+      <option name="METHOD_NAME" value="logInFB" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -532,20 +512,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHomeLogIn.openFacebookBrowser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.TestHomeLogIn" />
+      <option name="METHOD_NAME" value="openFacebookBrowser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.TestHomeLogIn" />
+      <item itemvalue="TestNG.TestHomeLogIn.logInFB" />
+      <item itemvalue="TestNG.TestHomeLogIn.openFacebookBrowser" />
       <item itemvalue="TestNG.TestHomeClick" />
-      <item itemvalue="TestNG.TestHomeClick.clickOnFemalePointer" />
-      <item itemvalue="TestNG.LogIn.logIn2" />
-      <item itemvalue="TestNG.LogIn.logIn3" />
-      <item itemvalue="TestNG.LogIn" />
+      <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogIn" />
-        <item itemvalue="TestNG.LogIn.logIn3" />
-        <item itemvalue="TestNG.LogIn.logIn2" />
-        <item itemvalue="TestNG.TestHomeClick.clickOnFemalePointer" />
+        <item itemvalue="TestNG.TestHomeLogIn" />
         <item itemvalue="TestNG.TestHomeClick" />
+        <item itemvalue="TestNG./MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" />
+        <item itemvalue="TestNG.TestHomeLogIn.logInFB" />
+        <item itemvalue="TestNG.TestHomeLogIn.openFacebookBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -563,40 +571,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImportSearchFB_enterEmailAddress - 2018.09.20 at 13h 51m 01s.xml">
-      <configuration name="ImportSearchFB.enterEmailAddress" configurationId="TestNG" />
+    <history-entry file="LogIn_logInFB - 2018.09.20 at 18h 51m 35s.xml">
+      <configuration name="LogIn.logInFB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB_enterFirstNameBox - 2018.09.20 at 13h 54m 06s.xml">
-      <configuration name="ImportSearchFB.enterFirstNameBox" configurationId="TestNG" />
+    <history-entry file="LogIn_openFacebookBrowser - 2018.09.20 at 18h 58m 15s.xml">
+      <configuration name="LogIn.openFacebookBrowser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ImportSearchFB_enterFirstNameBox - 2018.09.20 at 13h 54m 58s.xml">
-      <configuration name="ImportSearchFB.enterFirstNameBox" configurationId="TestNG" />
+    <history-entry file="LogIn_logInFB - 2018.09.20 at 18h 58m 30s.xml">
+      <configuration name="LogIn.logInFB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage - 2018.09.20 at 14h 07m 11s.xml">
-      <configuration name="HomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Click - 2018.09.20 at 16h 02m 25s.xml">
-      <configuration name="Click" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookTestRunner_xml - 2018.09.20 at 16h 05m 35s.xml">
-      <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHomeClick - 2018.09.20 at 16h 51m 39s.xml">
+    <history-entry file="TestHomeClick - 2018.09.20 at 19h 03m 04s.xml">
       <configuration name="TestHomeClick" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomeClick_clickOnFemalePointer - 2018.09.20 at 16h 52m 52s.xml">
-      <configuration name="TestHomeClick.clickOnFemalePointer" configurationId="TestNG" />
+    <history-entry file="LogIn_logInFB - 2018.09.20 at 19h 22m 08s.xml">
+      <configuration name="LogIn.logInFB" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LogIn_logIn3 - 2018.09.20 at 17h 18m 17s.xml">
-      <configuration name="LogIn.logIn3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogIn - 2018.09.20 at 17h 23m 52s.xml">
+    <history-entry file="LogIn - 2018.09.20 at 19h 55m 34s.xml">
       <configuration name="LogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookTestRunner_xml - 2018.09.20 at 19h 59m 53s.xml">
+      <configuration name="/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomeClick - 2018.09.20 at 20h 00m 50s.xml">
+      <configuration name="TestHomeClick" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomeLogIn - 2018.09.20 at 20h 01m 52s.xml">
+      <configuration name="TestHomeLogIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHomeClick - 2018.09.20 at 20h 06m 16s.xml">
+      <configuration name="TestHomeClick" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76626503" visible="true" weight="0.2353362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -607,7 +614,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.23373494" side_tool="true" weight="0.2353362" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31084338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -755,22 +762,49 @@
     <entry file="file://$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookLogIntRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,103 +815,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/ImportSearchFB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/HomeLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="760">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/TestHomeClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
           </folding>
         </state>
       </provider>
