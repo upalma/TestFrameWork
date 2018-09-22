@@ -9,7 +9,6 @@
     <parameter name="browserVersion" value="69.0.3497.100"/>
     <parameter name="url" value="https://www.facebook.com/"/>
     <test name = "Facebook Test case">
-
         <classes>
             <class name="search.TestFacebookLogIn"/>
             <class name="search.TestHomePageClick"/>

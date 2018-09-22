@@ -2,17 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Test-Automation</artifactId>
+        <groupId>Web-Automation</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Web-Automation</groupId>
-    <artifactId>Test-Automation</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>Generic</module>
-        <module>Facebook</module>
-        <module>Amazone</module>
-    </modules>
+    <artifactId>Amazone</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>Web-Automation</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -53,6 +59,7 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
+                        <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

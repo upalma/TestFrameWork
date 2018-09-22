@@ -14,7 +14,7 @@ public class FacebookLogIn extends CommonAPI {
 
 
     public void logInFacebook() {
-        userName.sendKeys("palma_ub1.com");
+        userName.sendKeys("@yahoo.com");
         userPassword.sendKeys("070122", Keys.ENTER);
     }
     public void clickOnProfile() {
