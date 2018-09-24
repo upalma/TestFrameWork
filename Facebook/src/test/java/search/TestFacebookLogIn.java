@@ -1,7 +1,6 @@
 package search;
 
 import home.FacebookLogIn;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,14 +11,18 @@ FacebookLogIn fbLogIn;
     public void initialization() {
         fbLogIn = PageFactory.initElements(driver, FacebookLogIn.class);
     }
-
     @Test
-    public void fbLogInSucessfully() {
+    public void fbLogInSuccessfully() {
         fbLogIn.logInFacebook();
     }
-//    @Test
-//    public void clickonHome() {
-//        fbLogIn.logInFacebook();
-//        fbLogIn.inputDataOnSearchBox();
-//    }
+    @Test
+    public void inputDataInHomeSearchBox() {
+        fbLogIn.logInFacebook();
+        fbLogIn.inputDataOnSearchBox();
+    }
+    @Test
+    public void clickOnMainPageProfileName(){
+        fbLogIn.logInFacebook();
+        fbLogIn.clickOnProfileName();
+    }
 }

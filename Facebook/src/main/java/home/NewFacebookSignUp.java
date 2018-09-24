@@ -33,11 +33,10 @@ public class NewFacebookSignUp extends CommonAPI {
         Select select = new Select(dropdown_Year);
         select.selectByValue(value);
     }
-    public void selecGender(String value){
-        Select select = new Select(dropdown_Year);
-        select.selectByValue(value);
-    }
-
+//    public void selecGender(String value){
+//        Select select = new Select(dropdown_Gender);
+//        select.selectByValue(value);
+//    }
     public void inputSignUpData(){
         signUpField_firstName.sendKeys("Bright");
         signUpField_lastName.sendKeys("Palma");
@@ -50,8 +49,6 @@ public class NewFacebookSignUp extends CommonAPI {
         driver.findElement(By.id("u_0_r"));
         driver.findElement(By.xpath("//*[@id=\"u_0_r\"]")).submit();
     }
-
-
     public void setText_logInuserName(String text){
         logIn_userName.sendKeys(text);
         Assert.assertEquals(logIn_userName.getAttribute("value"),text);

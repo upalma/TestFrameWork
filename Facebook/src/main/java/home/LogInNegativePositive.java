@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.openqa.selenium.support.FindBy;
 
-public class LogInNegative_Positive extends CommonAPI{
+public class LogInNegativePositive extends CommonAPI{
     @FindBy(css = "#email") WebElement userName;
     @FindBy(css="#pass") WebElement password;
 
@@ -15,9 +15,9 @@ public class LogInNegative_Positive extends CommonAPI{
         userName.sendKeys("dkfjkdjfk");
         password.sendKeys("jdfkdj kfj", Keys.ENTER);
     }
-        public void loginInWithCorrectUserAndWrongPassword(){
-            userName.sendKeys("dkfjkdjfk");
-            password.sendKeys("jdfkdj kfj", Keys.ENTER);
+    public void loginInWithCorrectUserAndWrongPassword(){
+        userName.sendKeys("dkfjkdjfk");
+        password.sendKeys("jdfkdj kfj", Keys.ENTER);
     }
     public void loginInWithCorrectUserNameAndNoPassword() {
         userName.sendKeys("dkfjkdjfk", Keys.ENTER);

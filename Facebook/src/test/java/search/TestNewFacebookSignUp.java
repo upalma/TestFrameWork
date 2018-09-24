@@ -1,7 +1,6 @@
 package search;
 
 import home.NewFacebookSignUp;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -13,15 +12,15 @@ public class TestNewFacebookSignUp extends NewFacebookSignUp {
     public void initialization() {
         fbSignUp = PageFactory.initElements(driver, NewFacebookSignUp.class);
     }
-//    @Test
-//    public void newFbSignUp() {
-//        fbSignUp.inputSignUpData();
-//        try {
-//            Thread.sleep(10000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
+    @Test
+    public void newFbSignUp() {
+        fbSignUp.inputSignUpData();
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     @Test
     public void FBSignUp() {
         fbSignUp.setText_signUpField_firstName("Bright");
@@ -34,6 +33,5 @@ public class TestNewFacebookSignUp extends NewFacebookSignUp {
         fbSignUp.selectBirthYear("2000");
         //driver.findElement(By.xpath("//*[@id=\"u_0_13\"]/span[1]")).click();
         //driver.findElement(By.id("u_0_15")).submit();
-
     }
 }
