@@ -1,25 +1,19 @@
-package testSignInPageObjects;
+package DataReaderTest;
 
+import dataReader.GoogleSheetsPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import signInPageObjects.GoogleSheetsPage;
-import signInPageObjects.SignInPage;
-import testHomePageObjects.HomePage;
 
 import java.io.IOException;
 import java.util.List;
 
 public class TestGoogleSheetsPage extends GoogleSheetsPage {
-    HomePage objOfHomePage;
-    SignInPage objOfSignInPage;
     GoogleSheetsPage objGoogleSheetsPage;
 
 
     @BeforeMethod
     public void initialization(){
-        objOfHomePage = PageFactory.initElements(driver, HomePage.class);
-        objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
        objGoogleSheetsPage = PageFactory.initElements(driver, GoogleSheetsPage.class);
     }
 

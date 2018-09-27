@@ -1,6 +1,5 @@
 package search;
 
-import popUpTest.HomePageSearch;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

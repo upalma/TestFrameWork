@@ -1,4 +1,4 @@
-package popUpTest;
+package search;
 
 import popUp.PopUpHandling;
 import org.openqa.selenium.support.PageFactory;

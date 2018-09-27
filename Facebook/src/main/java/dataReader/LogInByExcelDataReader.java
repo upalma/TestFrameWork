@@ -1,4 +1,4 @@
-package popUpTest;
+package dataReader;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;

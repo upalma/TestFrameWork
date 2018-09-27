@@ -1,7 +1,7 @@
 package DataReaderTest;
 
 import datProviderUtilityWIthXlsReader.XlsDataReaderUtil;
-import popUpTest.LogInByExcelDataReader;
+import dataReader.LogInByExcelDataReader;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

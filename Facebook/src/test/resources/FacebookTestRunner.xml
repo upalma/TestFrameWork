@@ -16,7 +16,7 @@
             <!--<class name="search.LogInPageInputDataTest"/>-->
             <!--<class name="search.NewFacebookSignUpTest"/>-->
             <!--<class name="search.LogInNegativePositiveTest"/>-->
-            <!--<class name="testSignInPageObjects.TestGoogleSheetsPage"/>-->
+            <!--<class name="DataReaderTest.TestGoogleSheetsPage"/>-->
             <class name="testSignInPageObjects.TestByInputFromExls"/>
 
         </classes>
