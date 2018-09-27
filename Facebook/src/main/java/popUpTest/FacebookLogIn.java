@@ -12,8 +12,8 @@ public class FacebookLogIn extends CommonAPI {
     @FindBy(id = "u_0_2") WebElement logInButton;
 
     public void logInFacebook() {
-        userName.sendKeys("palma_ub13@yahoo.com");
-        userPassword.sendKeys("01711070122", Keys.ENTER);
+        userName.sendKeys("palub13@yahoo.com");
+        userPassword.sendKeys("0170122", Keys.ENTER);
     }
     public void clickLogInButton(){
         logInButton.click();

@@ -1,4 +1,4 @@
-package search;
+package DataReaderTest;
 
 import datProviderUtilityWIthXlsReader.XlsDataReaderUtil;
 import popUpTest.LogInByExcelDataReader;

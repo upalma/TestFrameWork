@@ -2,92 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dea8a2-08d1-4033-bf31-1375e0a161e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Amazone/dataFile/DataFile.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazone/dataFile/HomePageLinkData.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazone/dataFile/Key.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazone/dataFile/SignInKeyword.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/KeyWordDriven/Features.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/getHelpPageObjects/GetHelpHerePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/popUpTest/FacebookLogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/popUpTest/LogInPageClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/popUpTest/LogInPageInputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/productsPageObjects/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/ByInputFromExls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/GoogleSheetsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/main/java/testHomePageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/NewFacebookSignUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testHomePageObjects/TestHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testKeyWordDriven/TestFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testProductsPageObjects/TestProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestByInputFromExls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestSignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/XlsDataReaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/datProviderUtilityWIthXlsReader/Xls_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/lib/Workbook1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/dataFile/Workbook1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/ClickElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/ClickElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/reporting/ApplicationLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/reporting/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/reporting/TestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/search/SearchByExcelFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/search/TestSearchByExcelFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/Amazone-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/Amazone-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/search/SearchByExcelFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestClickElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestClickElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/FacebookLogIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/HomeClick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/HomePageInputData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/LogInNegativePositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/popUpTest/LogInNegativePositive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/home/NewFacebookSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/popUpTest/NewFacebookSignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/TestFacebookLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/FacebookLogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomePageClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/LogInPageClickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/TestHomePageInputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/LogInPageInputDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/TestLogInNegativePositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/search/LogInNegativePositiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/TestNewFacebookSignUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/search/SearchByArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/search/SearchByGoogleSheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/search/SearchBySingleItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/search/LogInByExeclDataReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/Facebook-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/FacebookLogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/home/FacebookLogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/HomeClick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/HomePageInputData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/NewFacebookSignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/classes/home/NewFacebookSignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/FacebookLogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/HomePageSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/LogInByExcelDataReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/LogInNegativePositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/LogInPageClick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/LogInPageInputData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/classes/home/NewFacebookSignUp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/FacebookTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/TestFacebookLogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/TestHomePageClick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/TestHomePageInputData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/TestLogInNegativePositive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/TestNewFacebookSignUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/FacebookLogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/FacebookLogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/HomePageSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/HomePageSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInByExeclDataReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInNegativePositiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInNegativePositiveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInPageClickTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInPageClickTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInPageInputDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/LogInPageInputDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/search/NewFacebookSignUpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/search/NewFacebookSignUpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/target/test-classes/testSignInPageObjects/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/target/test-classes/testSignInPageObjects/TestGoogleSheetsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -164,12 +107,13 @@
     <session id="809944281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -177,10 +121,10 @@
           <entry key="StoredCredential" value="1" />
           <entry key="class" value="6" />
           <entry key="html" value="4" />
-          <entry key="java" value="184" />
-          <entry key="json" value="2" />
+          <entry key="java" value="200" />
+          <entry key="json" value="3" />
           <entry key="png" value="10" />
-          <entry key="xml" value="32" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -188,24 +132,24 @@
           <entry key="CLASS" value="6" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="10" />
-          <entry key="JAVA" value="184" />
-          <entry key="JSON" value="2" />
+          <entry key="JAVA" value="200" />
+          <entry key="JSON" value="3" />
           <entry key="XHTML" value="1" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="161" />
-          <entry key="java" value="4710" />
-          <entry key="xml" value="93" />
+          <entry key="java" value="4727" />
+          <entry key="xml" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4710" />
+          <entry key="JAVA" value="4727" />
           <entry key="PLAIN_TEXT" value="161" />
-          <entry key="XML" value="93" />
+          <entry key="XML" value="99" />
         </counts>
       </usages-collector>
     </session>
@@ -216,96 +160,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PNT/src/main/java/popUp/PopUpHandling.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PNT/src/main/java/popUp/HandlePopUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PNT/src/test/java/popUpTest/TestPopUpHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="494">
               <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/SignInPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1046">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3169#3170#0" expanded="true" />
+                <element signature="e#3229#3230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/ByInputFromExls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4940">
-              <caret line="315" column="16" selection-start-line="315" selection-start-column="16" selection-end-line="315" selection-end-column="16" />
+            <state relative-caret-position="347">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/HomePageSearchTest.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/GoogleSheetsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PNT/screenshots/closePopWindow (09.26.2018-20:55PM).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PNT/screenshots/closePopWindow (09.26.2018-20:56PM).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/FacebookLogInTest.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogInByExeclDataReaderTest.java">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestSignInPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="72" column="42" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/testHomePageObjects/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,7 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Amazone/src/main/java/fileReder/HomePage.java" />
         <option value="$PROJECT_DIR$/Amazone/src/test/java/fileReaderFromEXcel/ReadDataFromExcel.java" />
         <option value="$PROJECT_DIR$/Amazone/Extent-Report/ExtentReport.html" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/TestNewFacebookSignUp.java" />
@@ -364,7 +318,6 @@
         <option value="$PROJECT_DIR$/Facebook/src/main/java/home/LogInByExcelDataReader.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/FacebookLogInTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/search/LogInByExeclDataReaderTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" />
@@ -378,21 +331,18 @@
         <option value="$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/SignInPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestSignInPage.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/GoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" />
         <option value="$PROJECT_DIR$/PNT/pom.xml" />
         <option value="$PROJECT_DIR$/PNT/src/main/java/homePage/PopUpHandling.java" />
         <option value="$PROJECT_DIR$/PNT/src/test/java/home/PopupCloseTest.java" />
         <option value="$PROJECT_DIR$/PNT/src/main/java/homePage/HandlePopUp.java" />
         <option value="$PROJECT_DIR$/PNT/src/test/java/home/TestPopUpHandle.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/PNT/src/test/java/popUpTest/TestPopUpHandle.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
-    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -473,6 +423,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -521,6 +473,48 @@
               <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="getHelpPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="signInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -530,6 +524,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReaderTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -548,6 +551,23 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testGetHelPPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testSignInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -602,17 +622,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538013295470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538069559112" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -657,34 +683,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestPopUpHandle.popUpHandle">
-    <configuration name="FacebookLogInTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet">
+    <configuration name="LogInByExeclDataReaderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="DataReaderTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataReaderTest" />
+      <option name="MAIN_CLASS_NAME" value="DataReaderTest.LogInByExeclDataReaderTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataReaderTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.FacebookLogInTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PopupCloseTest.clickOnPopupWindow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PNT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popUpTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="popUpTest.PopupCloseTest" />
-      <option name="METHOD_NAME" value="clickOnPopupWindow" />
+      <option name="MAIN_CLASS_NAME" value="DataReaderTest.LogInByExeclDataReaderTest" />
+      <option name="METHOD_NAME" value="loginTestByDataProvider" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -692,18 +718,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopupCloseTest.closePopWindow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PNT" />
+    <configuration name="SinInUsingDataProviderPageTest.signIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="popUpTest.*" />
+          <option name="PATTERN" value="testSignInPageObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="popUpTest.PopupCloseTest" />
-      <option name="METHOD_NAME" value="closePopWindow" />
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.SinInUsingDataProviderPageTest" />
+      <option name="METHOD_NAME" value="signIn" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoogleSheetsPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.TestGoogleSheetsPage" />
       <properties />
       <listeners />
       <method v="2">
@@ -728,38 +770,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPopUpHandle.popUpHandle" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PNT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popUpTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="popUpTest.TestPopUpHandle" />
-      <option name="METHOD_NAME" value="popUpHandle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.SinInUsingDataProviderPageTest.signIn" />
+      <item itemvalue="TestNG.TestGoogleSheetsPage" />
+      <item itemvalue="TestNG.LogInByExeclDataReaderTest.loginTestByDataProvider" />
+      <item itemvalue="TestNG.LogInByExeclDataReaderTest" />
       <item itemvalue="TestNG.TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" />
-      <item itemvalue="TestNG.FacebookLogInTest" />
-      <item itemvalue="TestNG.PopupCloseTest.closePopWindow" />
-      <item itemvalue="TestNG.PopupCloseTest.clickOnPopupWindow" />
-      <item itemvalue="TestNG.TestPopUpHandle.popUpHandle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestPopUpHandle.popUpHandle" />
-        <item itemvalue="TestNG.PopupCloseTest.clickOnPopupWindow" />
-        <item itemvalue="TestNG.PopupCloseTest.closePopWindow" />
-        <item itemvalue="TestNG.FacebookLogInTest" />
         <item itemvalue="TestNG.TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" />
+        <item itemvalue="TestNG.LogInByExeclDataReaderTest" />
+        <item itemvalue="TestNG.LogInByExeclDataReaderTest.loginTestByDataProvider" />
+        <item itemvalue="TestNG.TestGoogleSheetsPage" />
+        <item itemvalue="TestNG.SinInUsingDataProviderPageTest.signIn" />
       </list>
     </recent_temporary>
   </component>
@@ -777,42 +801,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.26 at 20h 13m 59s.xml">
+    <history-entry file="_SeleniumProject_MavenProject_TestAutomation_Facebook_src_test_resources_FacebookTestRunner_xml - 2018.09.27 at 13h 10m 39s.xml">
+      <configuration name="/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/resources/FacebookTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestByInputFromExls_signInWithInvalidIdAndPassword - 2018.09.27 at 13h 12m 06s.xml">
+      <configuration name="TestByInputFromExls.signInWithInvalidIdAndPassword" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestByInputFromExls - 2018.09.27 at 13h 13m 36s.xml">
+      <configuration name="TestByInputFromExls" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SinInUsingDataProviderPageTest_signIn - 2018.09.27 at 13h 16m 04s.xml">
+      <configuration name="SinInUsingDataProviderPageTest.signIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SinInUsingDataProviderPageTest_signIn - 2018.09.27 at 13h 18m 23s.xml">
+      <configuration name="SinInUsingDataProviderPageTest.signIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage - 2018.09.27 at 13h 23m 37s.xml">
+      <configuration name="TestGoogleSheetsPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInByExeclDataReaderTest_loginTestByDataProvider - 2018.09.27 at 13h 26m 40s.xml">
+      <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInByExeclDataReaderTest_loginTestByDataProvider - 2018.09.27 at 13h 28m 50s.xml">
+      <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LogInByExeclDataReaderTest - 2018.09.27 at 13h 31m 09s.xml">
+      <configuration name="LogInByExeclDataReaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.27 at 13h 32m 05s.xml">
       <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.26 at 20h 17m 12s.xml">
-      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FacebookLogInTest - 2018.09.26 at 20h 37m 47s.xml">
-      <configuration name="FacebookLogInTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PopupCloseTest_closePopWindow - 2018.09.26 at 20h 56m 01s.xml">
-      <configuration name="PopupCloseTest.closePopWindow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PopupCloseTest_closePopWindow - 2018.09.26 at 20h 56m 38s.xml">
-      <configuration name="PopupCloseTest.closePopWindow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PopupCloseTest_clickOnPopupWindow - 2018.09.26 at 21h 04m 08s.xml">
-      <configuration name="PopupCloseTest.clickOnPopupWindow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestPopUpHandle_popUpHandle - 2018.09.26 at 21h 09m 49s.xml">
-      <configuration name="TestPopUpHandle.popUpHandle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestPopUpHandle_popUpHandle - 2018.09.26 at 21h 12m 10s.xml">
-      <configuration name="TestPopUpHandle.popUpHandle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestPopUpHandle_popUpHandle - 2018.09.26 at 21h 16m 07s.xml">
-      <configuration name="TestPopUpHandle.popUpHandle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestPopUpHandle_popUpHandle - 2018.09.26 at 21h 44m 29s.xml">
-      <configuration name="TestPopUpHandle.popUpHandle" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76506025" visible="true" weight="0.23390558" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76506025" visible="true" weight="0.23390558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -821,7 +845,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.23493975" side_tool="true" weight="0.24320458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39036146" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39036146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31084338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -876,47 +900,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/popUpTest/LogInByExcelDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/signInPageObjects/ByInputFromExls.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/signInPageObjects/GoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/testHomePageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/signInPageObjects/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1145">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/signInPageObjects/GoogleSheetsPage.java" />
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/testHomePageObjects/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/home/signInPageObjects/SignInPage.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testHomePageObjects/TestHomePage.java">
@@ -963,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
@@ -981,85 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/ByInputFromExls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="956">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestSignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="72" column="42" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/popUpTest/FacebookLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/testHomePageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="157" column="20" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
-            <element signature="e#3229#3230#0" expanded="true" />
-            <element signature="e#8615#8616#0" expanded="true" />
-            <element signature="e#8646#8647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="340" selection-start-column="327" selection-end-column="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/GoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1101,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1187">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PNT/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1119,15 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,16 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/search/LogInByExeclDataReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PNT/src/main/java/popUp/HandlePopUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1178,20 +1057,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PNT/src/test/java/popUpTest/TestPopUpHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="171">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="340" selection-start-column="327" selection-end-column="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="421" selection-start-line="421" selection-end-line="421" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/testHomePageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1046">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3169#3170#0" expanded="true" />
+            <element signature="e#3229#3230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/ByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/SinInUsingDataProviderPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,15 +1170,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="494">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/signInPageObjects/GoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4940">
-          <caret line="315" column="16" selection-start-line="315" selection-start-column="16" selection-end-line="315" selection-end-column="16" />
+        <state relative-caret-position="228">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>

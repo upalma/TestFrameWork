@@ -26,9 +26,9 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
     // ALI_GS_TC1: Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
-        sleepFor(3);
+        sleepFor(2);
         objGoogleSheetsPage.clickOnLogInButton();
-        sleepFor(3);
+        sleepFor(2);
 //        objOfSignInPage.switchToSignInForm();
 //        sleepFor(3);
         int i = 0;
