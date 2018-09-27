@@ -1,9 +1,5 @@
-PopUpHandling/HandlePopUp.class
-PopUpHandling/HandlePopUp$2.class
-PopUpHandling/HandlePopUp$6.class
-PopUpHandling/HandlePopUp$4.class
-PopUpHandling/HandlePopUp$1.class
-PopUpHandling/HandlePopUp$7.class
-PopUpHandling/TestLogger.class
-PopUpHandling/HandlePopUp$3.class
-PopUpHandling/HandlePopUp$5.class
+search/SearchByArrayList.class
+HomePageObjectModule/ClickElement.class
+HomePageObjectModule/DropDown.class
+search/SearchByGoogleSheet.class
+search/SearchBySingleItem.class

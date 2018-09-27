@@ -3,8 +3,14 @@ package HomePageObjectModule;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
 public class ClickElement extends CommonAPI {
 
     @FindBy(id="nav-upnav") WebElement topBar;
@@ -21,9 +27,23 @@ public class ClickElement extends CommonAPI {
     @FindBy(css="#//*[@id=\"nav-xshop\"]/a[5]") WebElement sellLink;
     @FindBy(css="#nav-xshop > a:nth-child(7)") WebElement treasureTruckLink;
     @FindBy(css="#nav-xshop > a:nth-child(8)") WebElement helpLink;
+    @FindBy(id="nav-link-accountList") WebElement AccountAndListBox;
+    @FindBy(id="nav-link-accountList") WebElement AccountAndList;
+    @FindBy(className = "#nav-al-wishlist") WebElement clickOnFindaGift;
 
+//    public void hoverOver(){
+//        AccountAndListBox.click();
+//    }
+    public void hoverOver(){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(AccountAndListBox).perform();
+        actions.moveToElement(clickOnFindaGift).click().perform();
+}
     public void topBarClick(){
         driver.findElement(By.id("nav-upnav"));
+    }
+    public void topBarclick(){
+        topBar.click();
     }
     public void amazonTryPrimeBoxClick(){
         driver.findElement(By.className("hm-icon nav-sprite")).click();

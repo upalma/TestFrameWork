@@ -13,12 +13,28 @@ public class TestClickElement extends HomePageObjectModule.ClickElement {
         findByElement = PageFactory.initElements(driver, ClickElement.class);
     }
     @Test
+    public void testHover(){
+        findByElement.hoverOver();
+    }
+    @Test
+    public void clickOnAccountAndListBox(){
+        locatorTypeId("nav-link-accountList");
+    }
+    @Test
+    public void clickOnAccountAndList(){
+        locatorTypeXpath("//*[@id=\"nav-link-accountList\"]/span[2]");
+    }
+    @Test
     public void popUP() {
         driver.navigate();
     }
     @Test
     public void clickOnTopBar1() {
         locatorTypeId("nav-upnav");
+    }
+    @Test
+    public void clickOnTopBar() {
+        topBarclick();
     }
     @Test
     public void clickOnAmazonTryPrimeBox1() {
@@ -64,69 +80,8 @@ public class TestClickElement extends HomePageObjectModule.ClickElement {
     public void clickOnAll() {
         locatorTypeId("searchDropdownBox");
     }
-//    @Test
-//    public void clickOnSellLink1() {
-//        locatorTypeXpath("//*[@id=\"nav-xshop\"]/a[5]");
-//    }
-//    @Test
-//    public void clickOnTreasureTruckLink1() {
-//        locatorTypeXpath("//*[@id=\"nav-xshop\"]/a[6]");
-//    }
-//    @Test
-//    public void clickOnHelpLink1() {
-//        locatorTypeCss("/Help");
-//    }
-
-//    @Test
-//    public void clickOnTopBar() {
-//        findByElement.topBarClick();
-//    }
-//    @Test
-//    public void clickOnAmazonTryPrimeBox() {
-//        findByElement.amazonTryPrimeBoxClick();
-//    }
-//    @Test
-//    public void clickOnLocationIcon() {
-//        findByElement.locationIconClick();
-//    }
-//    @Test
-//    public void clickOnDeliverToText() {
-//        findByElement.deliverToTextClick();
-//    }
-//    @Test
-//    public void clickOnDeliveyAddressText() {
-//        findByElement.deliveyAddressTextClick();
-//    }
-//    @Test
-//    public void clickOnDeliveryToBox() {
-//        findByElement.deliverToBoxClick();
-//    }
-//    @Test
-//    public void clickOnYourAmazonLink() {
-//        findByElement.yourAmazonLinkClick();
-//    }
-//    @Test
-//    public void clickOnTodayDealsLink() {
-//        findByElement.todayDealsLinkClick();
-//    }
-//    @Test
-//    public void clickOnTreasureTruckLink() {
-//        findByElement.treasureTruckLinkClick();
-//    }
-//    @Test
-//    public void clickOnCellLink() {
-//        findByElement.cellLinkClick();
-//    }
-//    @Test
-//    public void clickOnGiftCardLink() {
-//        findByElement.giftCardLinkClick();
-//    }
-//    @Test
-//    public void clickOnRegistryLink() {
-//        findByElement.registryLinkClick();
-//    }
-//    @Test
-//    public void clickOnHelpLink() {
-//        findByElement.helpLinkClick();
-//    }
+    @Test
+    public void clickOnTreasureTruckLink1() {
+        locatorTypeXpath("//*[@id=\"nav-xshop\"]/a[6]");
+    }
 }

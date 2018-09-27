@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Web-Automation</groupId>
     <artifactId>Facebook</artifactId>
 <dependencies>
     <dependency>
@@ -17,7 +16,6 @@
         <version>1.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -40,5 +38,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

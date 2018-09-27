@@ -1,5 +1,7 @@
-search/TestFacebookLogIn.class
-search/TestHomePageInputData.class
-search/TestNewFacebookSignUp.class
-search/TestLogInNegativePositive.class
-search/TestHomePageClick.class
+search/LogInPageClickTest.class
+search/NewFacebookSignUpTest.class
+search/LogInPageInputDataTest.class
+search/HomePageSearchTest.class
+search/LogInNegativePositiveTest.class
+search/LogInByExeclDataReaderTest.class
+search/FacebookLogInTest.class

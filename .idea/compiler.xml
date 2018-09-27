@@ -10,6 +10,7 @@
         <module name="Amazone" />
         <module name="Facebook" />
         <module name="Generic" />
+        <module name="PNT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

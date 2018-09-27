@@ -1,5 +1,7 @@
-/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomePageClick.java
-/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/TestFacebookLogIn.java
-/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/TestLogInNegativePositive.java
-/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/TestNewFacebookSignUp.java
-/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/TestHomePageInputData.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/NewFacebookSignUpTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/LogInPageClickTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/FacebookLogInTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/HomePageSearchTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/LogInPageInputDataTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/LogInNegativePositiveTest.java
+/SeleniumProject/MavenProject/TestAutomation/Facebook/src/test/java/search/LogInByExeclDataReaderTest.java

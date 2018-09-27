@@ -1,2 +1,4 @@
-search/ClickElement.class
-search/TestHandlePopUp.class
+search/TestSearchByArrayList.class
+search/TestSearchBySingleItem.class
+homePageObjectModule/TestClickElement.class
+search/TestSearchByGoogleSheet.class

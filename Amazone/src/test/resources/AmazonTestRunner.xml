@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Facebook Automation Script " parallel="false">
+<suite name="Amazon Automation Script " parallel="true">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
@@ -11,6 +11,10 @@
     <test name = "Amazon Test case">
         <classes>
             <class name="homePageObjectModule.TestClickElement"/>
+            <class name="search.TestSearchByArrayList"/>
+            <class name="search.SearchByExcelFile"/>
+            <class name="search.TestSearchByGoogleSheet"/>
+            <class name="search.TestSearchBySingleItem"/>
         </classes>
     </test>
 </suite>

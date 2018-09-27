@@ -1,5 +1,7 @@
-home/HomePageInputData.class
-home/FacebookLogIn.class
-home/HomeClick.class
+home/HomePageSearch.class
+home/LogInByExcelDataReader.class
 home/NewFacebookSignUp.class
+home/LogInPageClick.class
+home/FacebookLogIn.class
+home/LogInPageInputData.class
 home/LogInNegativePositive.class

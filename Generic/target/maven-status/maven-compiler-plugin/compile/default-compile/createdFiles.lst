@@ -1,1 +1,7 @@
 base/CommonAPI.class
+reporting/ExtentManager.class
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+datProviderUtilityWIthXlsReader/Xls_Reader.class
+reporting/TestLogger.class
+datProviderUtilityWIthXlsReader/XlsDataReaderUtil.class

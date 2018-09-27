@@ -10,11 +10,12 @@
     <parameter name="url" value="https://www.facebook.com/"/>
     <test name = "Facebook Test case">
         <classes>
-            <class name="search.TestFacebookLogIn"/>
-            <class name="search.TestHomePageClick"/>
-            <class name="search.TestHomePageInputData"/>
-            <class name="search.TestLogInNegativePositive"/>
-            <class name="search.TestNewFacebookSignUp"/>
+            <class name="search.FacebookLogInTest"/>
+            <class name="search.HomePageSearchTest"/>
+            <class name="search.LogInPageClickTest"/>
+            <class name="search.LogInPageInputDataTest"/>
+            <class name="search.NewFacebookSignUpTest"/>
+            <class name="search.LogInNegativePositiveTest"/>
         </classes>
     </test>
 </suite>
