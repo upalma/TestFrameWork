@@ -6,82 +6,83 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestClickElement extends HomePageObjectModule.ClickElement {
-    ClickElement findByElement;
+    ClickElement clickElement;
 
     @BeforeMethod
     public void initialization() {
-        findByElement = PageFactory.initElements(driver, ClickElement.class);
+        clickElement = PageFactory.initElements(driver, ClickElement.class);
     }
+
     @Test
     public void testHover(){
-        findByElement.hoverOver();
+        clickElement.hoverOver();
     }
     @Test
-    public void clickOnAccountAndListBox(){
-        locatorTypeId("nav-link-accountList");
+    public void clickTopBar(){
+        clickElement.topBarClick();
     }
     @Test
-    public void clickOnAccountAndList(){
-        locatorTypeXpath("//*[@id=\"nav-link-accountList\"]/span[2]");
+    public void clickAmazonTryPrimeBox(){
+    clickElement.amazonTryPrimeBoxClick();
     }
     @Test
-    public void popUP() {
-        driver.navigate();
+    public void clickAmazonTryPrimeText(){
+    clickElement.amazonTryPrimeTextClick();
     }
     @Test
-    public void clickOnTopBar1() {
-        locatorTypeId("nav-upnav");
+    public void clickLocationIcon(){
+    clickElement.locationIconClick();
     }
     @Test
-    public void clickOnTopBar() {
-        topBarclick();
+    public void clickDeliverToText(){
+    clickElement.deliverToTextClick();
     }
     @Test
-    public void clickOnAmazonTryPrimeBox1() {
-        locatorTypeCss("#nav-logo > a.nav-logo-link > span.nav-sprite.nav-logo-base");
+    public void clickDeliveyAddressText(){
+    clickElement.deliveyAddressTextClick();
     }
     @Test
-    public void clickOnAmazonTryPrimeText() {
-        locatorTypeCss("#nav-logo > a.nav-sprite.nav-logo-tagline.nav-prime-try");
+    public void clickDeliveryToBox(){
+    clickElement.deliveryToBoxClick();
     }
     @Test
-    public void clickOnLocationIcon1() {
-        locatorTypeId("nav-packard-glow-loc-icon");
+    public void clickYourAmazonLink(){
+    clickElement.yourAmazonLinkClick();
     }
     @Test
-    public void clickOnDeliverToText1() {
-        locatorTypeId("glow-ingress-line1");
+    public void clickTodayDealsLink(){
+    clickElement.todayDealsLinkClick();
     }
     @Test
-    public void clickOnDeliveyAddressText1() {
-        locatorTypeId("glow-ingress-line2");
+    public void clickGiftCardLink(){
+    clickElement.giftCardLinkClick();
     }
     @Test
-    public void clickOnDeliveryToBox1() {
-        locatorTypeCss("#nav-global-location-slot>span>a");
+    public void clickRegistryLink(){
+    clickElement.registryLinkClick();
     }
     @Test
-    public void clickOnYourAmazonLink1() {
-        locatorTypeId("nav-your-amazon");
+    public void clickSellLink(){
+    clickElement.sellLinkClick();
     }
     @Test
-    public void clickOnTodayDealsLink1() {
-        locatorTypeCss("#nav-xshop > a:nth-child(3)");
+    public void clickTreasureTruckLink(){
+    clickElement.treasureTruckLinkClick();
     }
     @Test
-    public void clickOnGiftCardLink1() {
-        locatorTypeCss("#nav-xshop > a:nth-child(4)");
+    public void clickHelpLink(){
+    clickElement.helpLinkClick();
     }
     @Test
-    public void clickOnRegistryLink1() {
-        locatorTypeCss("#nav-xshop > a:nth-child(5)");
+    public void clickAccountAndListBox(){
+    clickElement.AccountAndListBoxClick();
     }
     @Test
-    public void clickOnAll() {
-        locatorTypeId("searchDropdownBox");
+    public void clickAccountAndList(){
+    clickElement.AccountAndListClick();
     }
     @Test
-    public void clickOnTreasureTruckLink1() {
-        locatorTypeXpath("//*[@id=\"nav-xshop\"]/a[6]");
+    public void clickFindaGiftLink(){
+    clickElement.findaGiftLinkClick();
     }
 }

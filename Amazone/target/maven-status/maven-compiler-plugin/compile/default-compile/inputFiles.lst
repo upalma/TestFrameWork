@@ -1,5 +1,5 @@
-/SeleniumProject/MavenProject/TestAutomation/Amazone/src/main/java/search/SearchByGoogleSheet.java
-/SeleniumProject/MavenProject/TestAutomation/Amazone/src/main/java/search/SearchByArrayList.java
-/SeleniumProject/MavenProject/TestAutomation/Amazone/src/main/java/search/SearchBySingleItem.java
-/SeleniumProject/MavenProject/TestAutomation/Amazone/src/main/java/HomePageObjectModule/ClickElement.java
-/SeleniumProject/MavenProject/TestAutomation/Amazone/src/main/java/HomePageObjectModule/DropDown.java
+/Framework/TestFrameWork/Amazone/src/main/java/search/SearchBySingleItem.java
+/Framework/TestFrameWork/Amazone/src/main/java/HomePageObjectModule/DropDown.java
+/Framework/TestFrameWork/Amazone/src/main/java/search/SearchByArrayList.java
+/Framework/TestFrameWork/Amazone/src/main/java/search/SearchByGoogleSheet.java
+/Framework/TestFrameWork/Amazone/src/main/java/HomePageObjectModule/ClickElement.java

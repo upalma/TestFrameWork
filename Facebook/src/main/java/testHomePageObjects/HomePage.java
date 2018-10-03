@@ -52,9 +52,9 @@ public class HomePage extends CommonAPI {
     public static WebElement greetingsToAccountHolder;
     @FindBy(partialLinkText = "My Alibaba")
     public static WebElement myAlibaba;
-    @FindBy(css = ".J-search-text")
+    @FindBy(css = ".J-homePageTest-text")
     public static WebElement emailBoxToSubscribeForTradeAlert;
-    @FindBy(css = ".J-btn-search")
+    @FindBy(css = ".J-btn-homePageTest")
     public static WebElement tradeAlertSubscriptionButton;
     //Footer
     @FindBy(xpath = "//*[@id=\"ui-footer\"]//div[1]/dl/dd[1]/a")

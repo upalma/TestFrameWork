@@ -11,10 +11,8 @@
     <test name = "Amazon Test case">
         <classes>
             <class name="homePageObjectModule.TestClickElement"/>
-            <class name="search.TestSearchByArrayList"/>
-            <class name="search.SearchByExcelFile"/>
-            <class name="search.TestSearchByGoogleSheet"/>
-            <class name="search.TestSearchBySingleItem"/>
+            <class name="homePageTest.TestSearchByArrayList"/>
+            <class name="homePageTest.TestSearchBySingleItem"/>
         </classes>
     </test>
 </suite>

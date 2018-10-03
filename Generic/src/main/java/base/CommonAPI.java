@@ -49,7 +49,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                                  String browserVersion, @Optional("https://www.facebook.com/") String url)throws IOException {
+                                  String browserVersion, @Optional("https://www.amazon.com/") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "/SeleniumProject/MavenProject/TestAutomation/Generic/brwoser-driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -68,7 +68,7 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/SeleniumProject/MavenProject/TestAutomation/Generic/brwoser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Framework/TestFrameWork/Generic/brwoser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -77,7 +77,7 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/SeleniumProject/MavenProject/TestAutomation/Generic/brwoser-driver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Framework/TestFrameWork/Generic/brwoser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -85,7 +85,7 @@ public class CommonAPI {
         }
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.gecko.driver", "/SeleniumProject/MavenProject/TestAutomation/Generic/brwoser-driver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "/Framework/TestFrameWork/Generic/brwoser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
             }

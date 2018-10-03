@@ -10,14 +10,14 @@
     <parameter name="url" value="https://www.facebook.com/"/>
     <test name = "Facebook Test case">
         <classes>
-            <!--<class name="search.FacebookLogInTest"/>-->
-            <!--<class name="search.HomePageSearchTest"/>-->
-            <!--<class name="search.LogInPageClickTest"/>-->
-            <!--<class name="search.LogInPageInputDataTest"/>-->
-            <!--<class name="search.NewFacebookSignUpTest"/>-->
-            <!--<class name="search.LogInNegativePositiveTest"/>-->
-            <!--<class name="DataReaderTest.TestGoogleSheetsPage"/>-->
-            <class name="testSignInPageObjects.TestByInputFromExls"/>
+            <class name="homePageTest.FacebookLogInTest"/>
+            <class name="homePageTest.HomePageSearchTest"/>
+            <class name="homePageTest.LogInPageClickTest"/>
+            <class name="homePageTest.LogInPageInputDataTest"/>
+            <class name="homePageTest.NewFacebookSignUpTest"/>
+            <class name="homePageTest.LogInNegativePositiveTest"/>
+            <class name="DataReaderTest.InputDataFmGoogleSheetsPageTest"/>
+            <class name="DataReaderTest.LogInByExeclDataReaderTest"/>
 
         </classes>
     </test>
