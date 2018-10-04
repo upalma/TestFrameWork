@@ -23,4 +23,12 @@ FacebookLogIn fbLogIn;
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         fbLogIn.clickLogInButton();
     }
+    @Test
+    public void loginButtonClick(){
+        fbLogIn.clickLogInButton();
+    }
+    @Test
+    public void inputNameAndPassword(){
+        fbLogIn.inputUserNameAndPassword();
+    }
 }

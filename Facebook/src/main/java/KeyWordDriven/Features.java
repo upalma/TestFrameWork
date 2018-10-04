@@ -1,36 +1,22 @@
 package KeyWordDriven;
 
 import base.CommonAPI;
+import homePageTest.FacebookLogIn;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.PageFactory;
-import signInPageObjects.ByInputFromExls;
-import signInPageObjects.SignInPage;
-import testHomePageObjects.HomePage;
+import utility.DataReader;
 
 import java.io.IOException;
 
 public class Features extends CommonAPI {
-    HomePage objOfHomePage = PageFactory.initElements(driver, HomePage.class);
-    SignInPage objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
-    ByInputFromExls objOfByInputFromExls = PageFactory.initElements(driver, ByInputFromExls.class);
+
+
+    FacebookLogIn facebookLogIn = PageFactory.initElements(CommonAPI.driver,FacebookLogIn.class);
 
     //KeyWord ClickSigIn
     public void clickSignIn() throws InterruptedException {
-        objOfHomePage.clikSignIn();
-    }
-
-    //KeyWord SwitchToSignForm
-    public void switchToSignInForm() {
-        objOfSignInPage.switchToSignInForm();
-    }
-
-    //KeyWord SignIn
-    public void signIn() throws InterruptedException {
-        objOfSignInPage.signIn();
-    }
-    public void searchProduct(){
-        objOfHomePage.searchProduct();
-        System.out.println("Search for Jahid");
+        facebookLogIn.clickLoginButton();
+        facebookLogIn.inputUserNameAndPassword();
     }
 
     public void selectAction(String featureName) throws IOException, InterruptedException {
@@ -38,19 +24,20 @@ public class Features extends CommonAPI {
             case "ClickSignIn":
                 clickSignIn();
                 break;
-            case "SwitchToSignInForm":
-                switchToSignInForm();
-                break;
-            case "SignIn":
-                signIn();
-                break;
             default:
                 throw new InvalidArgumentException("Invalid feature choice");
         }
     }
 
+    DataReader reader = new DataReader();
+    public String[] getDataFromKeyWordExcelFile(String fileName) throws IOException {
+        String path = "../Facebook/data/" +fileName;
+        String [] outPut = reader.colReader(path, 2);
+        return outPut;
+    }
+
     public void selectFeature() throws IOException, InterruptedException {
-        String[] keyword = objOfByInputFromExls.getDataFromSignInKeyword("Key.xls");
+        String[] keyword = getDataFromKeyWordExcelFile("Key.xls");
         for (int i = 0; i < keyword.length; i++) {
             selectAction(keyword[i]);
         }

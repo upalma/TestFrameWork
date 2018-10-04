@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class TestFeatures extends Features {
+
     Features objOfFeatures;
     @BeforeMethod
     public void initializeObjects(){

@@ -12,6 +12,14 @@ public class FacebookLogIn extends CommonAPI {
     @FindBy (xpath = "//*[@id=\"globalContainer\"]/div[3]/div/div/div") WebElement errorMessage;
     @FindBy(id = "u_0_2") WebElement logInButton;
 
+    public void clickLoginButton(){
+        logInButton.click();
+    }
+    public void inputUserNameAndPassword(){
+        userName.sendKeys("abcd");
+        userPassword.sendKeys("1234", Keys.ENTER);
+    }
+
     public void logInFacebook() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         userName.sendKeys("palub13@yahoo.com");
