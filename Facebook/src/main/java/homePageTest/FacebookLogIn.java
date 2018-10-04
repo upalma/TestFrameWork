@@ -13,12 +13,15 @@ public class FacebookLogIn extends CommonAPI {
     @FindBy(id = "u_0_2") WebElement logInButton;
 
     public void clickLoginButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logInButton.click();
     }
     public void inputUserNameAndPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         userName.sendKeys("abcd");
         userPassword.sendKeys("1234", Keys.ENTER);
     }
+
 
     public void logInFacebook() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
