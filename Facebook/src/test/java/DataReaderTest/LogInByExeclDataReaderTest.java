@@ -1,5 +1,6 @@
 package DataReaderTest;
 
+import base.CommonAPI;
 import datProviderUtilityWIthXlsReader.XlsDataReaderUtil;
 import dataReader.LogInByExcelDataReader;
 import org.openqa.selenium.support.PageFactory;
@@ -20,14 +21,15 @@ public class LogInByExeclDataReaderTest extends LogInByExcelDataReader {
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
     }
-
     @Test(dataProvider = "supplyData")
     public void loginTestByDataProvider(String email, String passCode,String message) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         TestLogger.log("email" + email);
         TestLogger.log("passCode" + passCode);
         TestLogger.log("message" + message);

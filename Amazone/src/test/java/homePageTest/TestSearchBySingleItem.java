@@ -1,8 +1,10 @@
 package homePageTest;
 
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class TestSearchBySingleItem extends SearchBySingleItem {
     SearchBySingleItem searchBySingleItem;
@@ -13,6 +15,7 @@ public class TestSearchBySingleItem extends SearchBySingleItem {
     }
     @Test
     public void searchItem(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchBySingleItem.importDataOnSearchBox();
     }
 }

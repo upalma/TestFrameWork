@@ -1,5 +1,4 @@
-search/SearchByArrayList.class
 HomePageObjectModule/ClickElement.class
 HomePageObjectModule/DropDown.class
-search/SearchByGoogleSheet.class
-search/SearchBySingleItem.class
+homePageTest/SearchBySingleItem.class
+homePageTest/SearchByArrayList.class

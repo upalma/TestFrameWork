@@ -1,4 +1,3 @@
-search/TestSearchByArrayList.class
-search/TestSearchBySingleItem.class
+homePageTest/TestSearchBySingleItem.class
 homePageObjectModule/TestClickElement.class
-search/TestSearchByGoogleSheet.class
+homePageTest/TestSearchByArrayList.class

@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class ClickElement extends CommonAPI {
 
@@ -46,60 +47,78 @@ public class ClickElement extends CommonAPI {
 //        AccountAndListBox.click();
 //    }
     public void hoverOver() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions actions = new Actions(driver);
         actions.moveToElement(AccountAndListBox).perform();
         actions.moveToElement(findaGiftLink).click().perform();
     }
 
     public void topBarClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         topBar.click();
     }
     public void amazonTryPrimeBoxClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonTryPrimeBox.click();
     }
     public void amazonTryPrimeTextClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonTryPrimeText.click();
     }
     public void locationIconClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         locationIcon.click();
     }
     public void deliverToTextClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         deliverToText.click();
     }
     public void deliveyAddressTextClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         deliveyAddressText.click();
     }
     public void deliveryToBoxClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         deliveryToBox.click();
     }
     public void yourAmazonLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         yourAmazonLink.click();
     }
     public void todayDealsLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         todayDealsLink.click();
     }
     public void giftCardLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         giftCardLink.click();
     }
     public void registryLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         registryLink.click();
     }
     public void sellLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sellLink.click();
     }
     public void treasureTruckLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         treasureTruckLink.click();
     }
     public void helpLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         helpLink.click();
     }
     public void AccountAndListBoxClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         AccountAndListBox.click();
     }
     public void AccountAndListClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         AccountAndList.click();
     }
     public void findaGiftLinkClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         findaGiftLink.click();
     }
 }

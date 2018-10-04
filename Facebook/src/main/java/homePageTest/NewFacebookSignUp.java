@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 public class NewFacebookSignUp extends CommonAPI {
 
@@ -22,19 +23,23 @@ public class NewFacebookSignUp extends CommonAPI {
     @FindBy(css = "#u_0_r") WebElement submitButton;
 
     public void selectBirthMonth(String value){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(dropdown_Month);
         select.selectByValue(value);
     }
     public void selectBirthDay(String value){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(dropdown_Day);
         select.selectByValue(value);
     }
     public void selectBirthYear(String value){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Select select = new Select(dropdown_Year);
         select.selectByValue(value);
     }
 
     public void inputSignUpData(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_firstName.sendKeys("Bright");
         signUpField_lastName.sendKeys("Palma");
         signUpField_emailAddress.sendKeys("palma.ub13@gmail.com");
@@ -47,30 +52,37 @@ public class NewFacebookSignUp extends CommonAPI {
         submitButton.submit();
     }
     public void setText_logInuserName(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logIn_userName.sendKeys(text);
         Assert.assertEquals(logIn_userName.getAttribute("value"),text);
     }
     public void setText_logInPassword(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logIn_Password.sendKeys(text);
         Assert.assertEquals(logIn_Password.getAttribute("value"),text);
     }
     public void setText_signUpField_firstName(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_firstName.sendKeys(text);
         Assert.assertEquals(signUpField_firstName.getAttribute("value"),text);
     }
     public void setText_signUpField_lastName(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_lastName.sendKeys(text);
         Assert.assertEquals(signUpField_lastName.getAttribute("value"),text);
     }
     public void setText_signUpField_emailAddress(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_emailAddress.sendKeys(text);
         Assert.assertEquals(signUpField_emailAddress.getAttribute("value"),text);
     }
     public void setText_signUpField_ReEnteremailAddress(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_ReEnteremailAddress.sendKeys(text);
         Assert.assertEquals(signUpField_ReEnteremailAddress.getAttribute("value"),text);
     }
     public void setText_signUpField_newPassword(String text){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signUpField_newPassword.sendKeys(text);
         Assert.assertEquals(signUpField_newPassword.getAttribute("value"),text);
     }

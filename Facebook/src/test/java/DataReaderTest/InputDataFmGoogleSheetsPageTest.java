@@ -1,9 +1,11 @@
 package DataReaderTest;
 
+import base.CommonAPI;
 import dataReader.GoogleSheetsPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.List;
@@ -20,6 +22,7 @@ public class InputDataFmGoogleSheetsPageTest extends GoogleSheetsPage {
     // ALI_GS_TC1: Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sleepFor(2);
         objGoogleSheetsPage.clickOnLogInButton();
         sleepFor(2);

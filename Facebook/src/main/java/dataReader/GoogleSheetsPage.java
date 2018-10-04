@@ -5,6 +5,7 @@ import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,12 +22,14 @@ public class GoogleSheetsPage extends CommonAPI {
 
 
     public void clickOnLogInButton() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sleepFor(4);
         logInButton.click();
     }
 
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         // Build a new authorized API client service.
         Sheets service = getSheetsService();
         ValueRange response = service.spreadsheets().values()
@@ -42,6 +45,7 @@ public class GoogleSheetsPage extends CommonAPI {
 
     // //ALI_GS_TC1 LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();

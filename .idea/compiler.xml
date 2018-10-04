@@ -11,10 +11,14 @@
         <module name="Facebook" />
         <module name="Generic" />
         <module name="PNT" />
+        <module name="RestApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BestBuy" target="1.8" />
+      <module name="REST" target="1.5" />
+      <module name="RESTapi" target="1.5" />
+      <module name="RestAPI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

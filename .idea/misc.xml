@@ -10,6 +10,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/BestBuy/pom.xml" />
+        <option value="$PROJECT_DIR$/RESTapi/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
       </set>
     </option>
   </component>
