@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dea8a2-08d1-4033-bf31-1375e0a161e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchByArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/ClickElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/ClickElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/homePageTest/SearchByArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/homePageTest/SearchBySingleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchBySingleItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageTest/DropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/DropDownTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageTest/TestSearchByArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchByArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageTest/TestSearchBySingleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchBySingleItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchByArrayList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchByArrayList$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchByArrayList$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchByArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchBySingleItem$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/homePageTest/SearchBySingleItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/DropDownTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/DropDownTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/TestSearchByArrayList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/TestSearchByArrayList$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/TestSearchByArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/TestSearchBySingleItem$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageTest/TestSearchBySingleItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/ConnectDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApi/src/test/java/jSonServer/PostResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/src/test/java/jSonServer/PostResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestApi/target/test-classes/jSonServer/PostResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestApi/target/test-classes/jSonServer/PostResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -199,13 +166,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="java" value="2771" />
+          <entry key="java" value="2979" />
           <entry key="xml" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2771" />
+          <entry key="JAVA" value="2979" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="XML" value="131" />
         </counts>
@@ -318,8 +285,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="25" column="144" selection-start-line="25" selection-start-column="144" selection-end-line="25" selection-end-column="144" />
+            <state relative-caret-position="198">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -330,12 +297,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+            <state relative-caret-position="341">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -736,7 +704,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538866979922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538868670687" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -782,7 +750,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SignInTest">
+  <component name="RunManager" selected="TestNG.SignInTest.signInAmazon">
     <configuration name="DropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <extension name="coverage">
@@ -810,24 +778,6 @@
       <option name="PACKAGE_NAME" value="homePageObjectModule" />
       <option name="MAIN_CLASS_NAME" value="homePageObjectModule.HoverOver" />
       <option name="METHOD_NAME" value="testHoverAmazonTryPrime" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverOver.testHoverDepartments" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazone" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homePageObjectModule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homePageObjectModule" />
-      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.HoverOver" />
-      <option name="METHOD_NAME" value="testHoverDepartments" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -887,20 +837,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignInTest.signInAmazon" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageObjectModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.SignInTest" />
+      <option name="METHOD_NAME" value="signInAmazon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.HoverOver.testHoverDepartments" />
       <item itemvalue="TestNG.HoverOver.testHoverTryPrime" />
       <item itemvalue="TestNG.HoverOver.testHoverAmazonTryPrime" />
       <item itemvalue="TestNG.SignInTest.createAmazonAccount" />
       <item itemvalue="TestNG.SignInTest" />
+      <item itemvalue="TestNG.SignInTest.signInAmazon" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignInTest.signInAmazon" />
         <item itemvalue="TestNG.SignInTest" />
         <item itemvalue="TestNG.SignInTest.createAmazonAccount" />
         <item itemvalue="TestNG.HoverOver.testHoverAmazonTryPrime" />
         <item itemvalue="TestNG.HoverOver.testHoverTryPrime" />
-        <item itemvalue="TestNG.HoverOver.testHoverDepartments" />
       </list>
     </recent_temporary>
   </component>
@@ -918,9 +886,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HoverOver_testHoverAccountAndListBox - 2018.10.06 at 17h 58m 46s.xml">
-      <configuration name="HoverOver.testHoverAccountAndListBox" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HoverOver_testHoverDepartments - 2018.10.06 at 18h 05m 06s.xml">
       <configuration name="HoverOver.testHoverDepartments" configurationId="TestNG" />
     </history-entry>
@@ -948,6 +913,9 @@
     <history-entry file="SignInTest - 2018.10.06 at 19h 00m 32s.xml">
       <configuration name="SignInTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SignInTest - 2018.10.06 at 19h 02m 45s.xml">
+      <configuration name="SignInTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -962,12 +930,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.23493975" side_tool="true" weight="0.24320458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4795181" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4795181" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3093623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41686746" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41686746" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.35783133" />
@@ -1426,8 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="25" column="144" selection-start-line="25" selection-start-column="144" selection-end-line="25" selection-end-column="144" />
+        <state relative-caret-position="198">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1436,12 +1404,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        <state relative-caret-position="341">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>

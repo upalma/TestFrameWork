@@ -18,4 +18,9 @@ public class SignInTest extends SignIn {
         signIn.createAccount();
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     }
+    @Test
+    public void signInAmazon(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        signIn.signInToAmazone();
+    }
 }

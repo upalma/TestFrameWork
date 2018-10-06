@@ -14,6 +14,9 @@ public class SignIn extends CommonAPI {
     @FindBy(id = "ap_password") WebElement enterYourPassword;
     @FindBy(id = "ap_password_check") WebElement reEnterYourPassword;
     @FindBy(id = "continue") WebElement submitCreateYourAmazonAccount;
+    @FindBy(id = "continue") WebElement continueNextPage;
+    @FindBy(id = "ap_password") WebElement enterPassword;
+    @FindBy(id= "signInSubmit") WebElement submit;
 
     public void createAccount(){
         accountAndList.click();
@@ -24,5 +27,13 @@ public class SignIn extends CommonAPI {
         reEnterYourPassword.sendKeys("abcd");
         submitCreateYourAmazonAccount.submit();
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    }
+    public void signInToAmazone(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        accountAndList.click();
+        enterYourEmail.sendKeys("palma.ub13@gmail.com");
+        continueNextPage.click();
+        enterYourPassword.sendKeys("abdckdjf");
+        submit.submit();
     }
 }
