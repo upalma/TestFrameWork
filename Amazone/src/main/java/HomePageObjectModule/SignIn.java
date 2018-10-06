@@ -15,7 +15,6 @@ public class SignIn extends CommonAPI {
     @FindBy(id = "ap_password_check") WebElement reEnterYourPassword;
     @FindBy(id = "continue") WebElement submitCreateYourAmazonAccount;
     @FindBy(id = "continue") WebElement continueNextPage;
-    @FindBy(id = "ap_password") WebElement enterPassword;
     @FindBy(id= "signInSubmit") WebElement submit;
 
     public void createAccount(){

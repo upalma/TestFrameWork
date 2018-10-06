@@ -21,8 +21,6 @@ public class FacebookLogIn extends CommonAPI {
         userName.sendKeys("abcd");
         userPassword.sendKeys("1234", Keys.ENTER);
     }
-
-
     public void logInFacebook() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         userName.sendKeys("palub13@yahoo.com");
@@ -34,7 +32,6 @@ public class FacebookLogIn extends CommonAPI {
         String actual = errorMessage.getText();
         System.out.println(actual);
     }
-
     public String clickLogInButtonwithDataProviser(String email, String passCode) throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         userName.sendKeys(email);
@@ -45,7 +42,4 @@ public class FacebookLogIn extends CommonAPI {
         System.out.println(actual);
         return actual;
     }
-
-
-
 }
