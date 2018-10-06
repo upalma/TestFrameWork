@@ -12,11 +12,6 @@ public class TestClickElement extends HomePageObjectModule.ClickElement {
     public void initialization() {
         clickElement = PageFactory.initElements(driver, ClickElement.class);
     }
-
-    @Test
-    public void testHover(){
-        clickElement.hoverOver();
-    }
     @Test
     public void clickTopBar(){
         clickElement.topBarClick();

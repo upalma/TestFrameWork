@@ -2,7 +2,6 @@ package HomePageObjectModule;
 
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
@@ -40,18 +39,13 @@ public class ClickElement extends CommonAPI {
     WebElement AccountAndListBox;
     @FindBy(id = "nav-link-accountList")
     WebElement AccountAndList;
-    @FindBy(className = "#nav-al-wishlist")
+    @FindBy(xpath = "//*[@id=\"nav-al-wishlist\"]/a[3]/span")
     WebElement findaGiftLink;
+
 
     //    public void hoverOver(){
 //        AccountAndListBox.click();
 //    }
-    public void hoverOver() {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(AccountAndListBox).perform();
-        actions.moveToElement(findaGiftLink).click().perform();
-    }
 
     public void topBarClick() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

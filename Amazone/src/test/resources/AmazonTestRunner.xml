@@ -10,9 +10,10 @@
     <parameter name="url" value="https://www.amazon.com/"/>
     <test name = "Amazon Test case">
         <classes>
-            <class name="homePageObjectModule.TestClickElement"/>
-            <class name="homePageTest.TestSearchByArrayList"/>
-            <class name="homePageTest.TestSearchBySingleItem"/>
+            <!--<class name="homePageObjectModule.TestClickElement"/>-->
+            <!--<class name="homePageObjectModule.TestSearchByArrayList"/>-->
+            <!--<class name="homePageObjectModule.TestSearchBySingleItem"/>-->
+            <class name="homePageObjectModule.DropDownTest"/>
         </classes>
     </test>
 </suite>
