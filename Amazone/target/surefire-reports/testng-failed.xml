@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Amazon Automation Script ]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="OS X"/>
+  <parameter name="os_version" value="Sierra"/>
+  <parameter name="browserVersion" value="69.0.3497.100"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <test thread-count="5" parallel="methods" name="Amazon Test case(failed)" verbose="0">
+    <classes>
+      <class name="homePageObjectModule.DropDownTest">
+        <methods>
+          <include name="init"/>
+          <include name="test1"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homePageObjectModule.DropDownTest -->
+      <class name="homePageObjectModule.TestSearchBySingleItem">
+        <methods>
+          <include name="initialization"/>
+          <include name="searchItem"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homePageObjectModule.TestSearchBySingleItem -->
+      <class name="homePageObjectModule.SignInTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="signInAmazon"/>
+          <include name="init"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="createAmazonAccount"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homePageObjectModule.SignInTest -->
+      <class name="homePageObjectModule.TestClickElement">
+        <methods>
+          <include name="clickAccountAndList"/>
+          <include name="clickFindaGiftLink"/>
+          <include name="afterEachTestMethod"/>
+          <include name="clickDeliverToText"/>
+          <include name="clickGiftCardLink"/>
+          <include name="clickTreasureTruckLink"/>
+          <include name="clickAmazonTryPrimeBox"/>
+          <include name="clickTopBar"/>
+          <include name="initialization"/>
+          <include name="extentSetup"/>
+          <include name="clickDeliveyAddressText"/>
+          <include name="clickLocationIcon"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="clickTodayDealsLink"/>
+          <include name="clickYourAmazonLink"/>
+          <include name="clickDeliveryToBox"/>
+          <include name="clickRegistryLink"/>
+          <include name="clickAmazonTryPrimeText"/>
+          <include name="clickSellLink"/>
+          <include name="generateReport"/>
+          <include name="clickAccountAndListBox"/>
+          <include name="clickHelpLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- homePageObjectModule.TestClickElement -->
+      <class name="homePageObjectModule.TestSearchByArrayList">
+        <methods>
+          <include name="init"/>
+          <include name="afterEachTestMethod"/>
+          <include name="SearchWithArrayList"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homePageObjectModule.TestSearchByArrayList -->
+      <class name="homePageObjectModule.HoverOver">
+        <methods>
+          <include name="init"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testHoverDepartments"/>
+          <include name="testHoverAccountAndListBox"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+          <include name="testHoverAmazonTryPrime"/>
+        </methods>
+      </class> <!-- homePageObjectModule.HoverOver -->
+    </classes>
+  </test> <!-- Amazon Test case(failed) -->
+</suite> <!-- Failed suite [Amazon Automation Script ] -->

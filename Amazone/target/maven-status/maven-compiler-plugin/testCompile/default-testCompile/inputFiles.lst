@@ -1,4 +1,6 @@
-/Framework/TestFrameWork/Amazone/src/test/java/homePageTest/DropDownTest.java
-/Framework/TestFrameWork/Amazone/src/test/java/homePageTest/TestSearchByArrayList.java
-/Framework/TestFrameWork/Amazone/src/test/java/homePageTest/TestSearchBySingleItem.java
+/Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/TestSearchByArrayList.java
+/Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/DropDownTest.java
+/Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/TestSearchBySingleItem.java
 /Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/TestClickElement.java
+/Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/HoverOver.java
+/Framework/TestFrameWork/Amazone/src/test/java/homePageObjectModule/SignInTest.java
