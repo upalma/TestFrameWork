@@ -10,8 +10,8 @@
     <parameter name="url" value="https://www.piit.us/"/>
     <test name = "PIIT Test case">
         <classes>
-            <class name="popUp.HandlePopUp"/>
-            <class name="popUp.PopUpHandling"/>
+            <!--<class name="popUp.HandlePopUp"/>-->
+            <!--<class name="popUp.PopUpHandling"/>-->
         </classes>
     </test>
 </suite>

@@ -42,11 +42,6 @@ public class ClickElement extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"nav-al-wishlist\"]/a[3]/span")
     WebElement findaGiftLink;
 
-
-    //    public void hoverOver(){
-//        AccountAndListBox.click();
-//    }
-
     public void topBarClick() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         topBar.click();

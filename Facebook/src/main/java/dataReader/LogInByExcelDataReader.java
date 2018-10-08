@@ -30,9 +30,6 @@ public class LogInByExcelDataReader extends CommonAPI {
         System.out.println(actual);
         return actual;
     }
-
-
-
 }
 
 
