@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Facebook</module>
+        <!--<module>Facebook</module>-->
         <module>Amazone</module>
-        <module>PNT</module>
-        <module>RestApi</module>
+        <!--<module>PNT</module>-->
+        <!--<module>RestApi</module>-->
     </modules>
     <dependencyManagement>
         <dependencies>
