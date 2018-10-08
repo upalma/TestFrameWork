@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="PNT Automation Script " parallel="false">
-    <parameter name="useCloudEnv" value="true"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="OS X"/>
-    <parameter name="os_version" value="Sierra"/>
-    <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="69.0.3497.100"/>
-    <parameter name="url" value="https://www.piit.us/"/>
-    <test name = "PIIT Test case">
-        <classes>
-            <!--<class name="popUp.HandlePopUp"/>-->
-            <!--<class name="popUp.PopUpHandling"/>-->
-        </classes>
-    </test>
-</suite>
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="PNT Automation Script " parallel="false">-->
+    <!--<parameter name="useCloudEnv" value="true"/>-->
+    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+    <!--<parameter name="os" value="OS X"/>-->
+    <!--<parameter name="os_version" value="Sierra"/>-->
+    <!--<parameter name="browserName" value="chrome"/>-->
+    <!--<parameter name="browserVersion" value="69.0.3497.100"/>-->
+    <!--<parameter name="url" value="https://www.piit.us/"/>-->
+    <!--<test name = "PIIT Test case">-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class name="popUp.HandlePopUp"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="popUp.PopUpHandling"/>&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+<!--</suite>-->
