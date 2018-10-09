@@ -11,13 +11,13 @@
     <test name = "Facebook Test case">
         <classes>
             <class name="homePageTest.FacebookLogInTest"/>
-            <!--<class name="homePageTest.HomePageSearchTest"/>-->
-            <!--<class name="homePageTest.LogInPageClickTest"/>-->
-            <!--<class name="homePageTest.LogInPageInputDataTest"/>-->
-            <!--<class name="homePageTest.NewFacebookSignUpTest"/>-->
-            <!--<class name="homePageTest.LogInNegativePositiveTest"/>-->
-            <!--<class name="DataReaderTest.InputDataFmGoogleSheetsPageTest"/>-->
-            <!--<class name="DataReaderTest.LogInByExeclDataReaderTest"/>-->
+            <class name="homePageTest.HomePageSearchTest"/>
+            <class name="homePageTest.LogInPageClickTest"/>
+            <class name="homePageTest.LogInPageInputDataTest"/>
+            <class name="homePageTest.NewFacebookSignUpTest"/>
+            <class name="homePageTest.LogInNegativePositiveTest"/>
+            <class name="DataReaderTest.InputDataFmGoogleSheetsPageTest"/>
+            <class name="DataReaderTest.LogInByExeclDataReaderTest"/>
 
         </classes>
     </test>

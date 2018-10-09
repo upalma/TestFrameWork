@@ -17,16 +17,15 @@ public class GoogleSheetsPage extends CommonAPI {
 
     @FindBy(css ="#email") WebElement userName;
     @FindBy(css="#pass") WebElement userPassword;
-    @FindBy (xpath = "//*[@id=\"globalContainer\"]/div[3]/div/div/div") WebElement errorMessage;
+    @FindBy (xpath = "//*[@id='globalContainer']/div[3]/div/div/div") WebElement errorMessage;
     @FindBy(id = "u_0_2") WebElement logInButton;
+    @FindBy(id="loginbutton") WebElement submit;
 
-
-    public void clickOnLogInButton() throws InterruptedException {
+    public void swithToLogInPage() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         sleepFor(4);
         logInButton.click();
     }
-
     //ALI_GS_TC1
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -42,17 +41,16 @@ public class GoogleSheetsPage extends CommonAPI {
             return values;
         }
     }
-
     // //ALI_GS_TC1 LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
             sleepFor(1);
-            inputValueInTextBoxByWebElement(userName, row.get(1).toString());
-            inputValueInTextBoxByWebElement(userPassword, row.get(2).toString());
+            inputValueInTextBoxByWebElement(userName, row.get(0).toString());
+            inputValueInTextBoxByWebElement(userPassword, row.get(1).toString());
+            submit.submit();
             sleepFor(1);
             //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(errorMessage));

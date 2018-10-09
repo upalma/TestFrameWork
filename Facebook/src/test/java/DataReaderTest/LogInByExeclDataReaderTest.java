@@ -17,19 +17,16 @@ public class LogInByExeclDataReaderTest extends LogInByExcelDataReader {
     LogInByExcelDataReader dataReader;
     @BeforeMethod
     public void initialization() {
-        dataReader = PageFactory.initElements(driver, LogInByExcelDataReader.class);
+        dataReader = PageFactory.initElements(CommonAPI.driver, LogInByExcelDataReader.class);
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();
     }
     @Test(dataProvider = "supplyData")
     public void loginTestByDataProvider(String email, String passCode,String message) throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         TestLogger.log("email" + email);
         TestLogger.log("passCode" + passCode);
         TestLogger.log("message" + message);
