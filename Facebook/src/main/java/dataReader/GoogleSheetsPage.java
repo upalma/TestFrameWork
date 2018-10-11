@@ -19,7 +19,7 @@ public class GoogleSheetsPage extends CommonAPI {
     @FindBy(css="#pass") WebElement userPassword;
     @FindBy (xpath = "//*[@id='globalContainer']/div[3]/div/div/div") WebElement errorMessage;
     @FindBy(id = "u_0_2") WebElement logInButton;
-    @FindBy(id="loginbutton") WebElement submit;
+    @FindBy(id="loginbutton") WebElement submitButton;
 
     public void swithToLogInPage() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -50,7 +50,7 @@ public class GoogleSheetsPage extends CommonAPI {
             sleepFor(1);
             inputValueInTextBoxByWebElement(userName, row.get(0).toString());
             inputValueInTextBoxByWebElement(userPassword, row.get(1).toString());
-            submit.submit();
+            submitButton.submit();
             sleepFor(1);
             //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(errorMessage));

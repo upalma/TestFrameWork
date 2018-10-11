@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 

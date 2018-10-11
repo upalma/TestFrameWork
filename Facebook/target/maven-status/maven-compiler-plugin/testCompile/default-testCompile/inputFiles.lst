@@ -2,6 +2,7 @@
 /Framework/TestFrameWork/Facebook/src/test/java/homePageTest/HomePageSearchTest.java
 /Framework/TestFrameWork/Facebook/src/test/java/testSignInPageObjects/TestByInputFromExls.java
 /Framework/TestFrameWork/Facebook/src/test/java/testKeyWordDriven/TestFeatures.java
+/Framework/TestFrameWork/Facebook/src/test/java/homePageTest/DropDownTest.java
 /Framework/TestFrameWork/Facebook/src/test/java/homePageTest/LogInPageInputDataTest.java
 /Framework/TestFrameWork/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java
 /Framework/TestFrameWork/Facebook/src/test/java/testGetHelPPageObjects/TestGetHelpHerePage.java

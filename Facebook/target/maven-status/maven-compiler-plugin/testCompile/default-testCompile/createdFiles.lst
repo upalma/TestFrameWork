@@ -9,12 +9,13 @@ homePageTest/LogInPageInputDataTest$9.class
 homePageTest/LogInNegativePositiveTest$3.class
 homePageTest/LogInPageClickTest$13.class
 homePageTest/LogInPageClickTest.class
+homePageTest/DropDownTest.class
+homePageTest/DropDownTest$1.class
 homePageTest/LogInPageInputDataTest$2.class
 homePageTest/LogInPageClickTest$14.class
 DataReaderTest/InputDataFmGoogleSheetsPageTest$1.class
 homePageTest/LogInPageInputDataTest$12.class
 homePageTest/LogInPageClickTest$8.class
-DataReaderTest/LogInByExeclDataReaderTest$2.class
 testSignInPageObjects/TestSignInPage$1.class
 homePageTest/FacebookLogInTest$1.class
 homePageTest/LogInNegativePositiveTest$1.class
@@ -24,7 +25,6 @@ testKeyWordDriven/TestFeatures$1.class
 homePageTest/LogInPageClickTest$9.class
 homePageTest/NewFacebookSignUpTest$1.class
 testSignInPageObjects/SinInUsingDataProviderPageTest.class
-DataReaderTest/LogInByExeclDataReaderTest$1.class
 homePageTest/LogInPageClickTest$12.class
 homePageTest/LogInPageInputDataTest.class
 homePageTest/LogInPageClickTest$15.class
