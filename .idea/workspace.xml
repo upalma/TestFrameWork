@@ -2,12 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35dea8a2-08d1-4033-bf31-1375e0a161e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Facebook/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/dataReader/GoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/dataReader/GoogleSheetsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignInAmazon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElementHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HomePageWebElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/ClickElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/DropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchByArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchByArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchBySingleItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchBySingleItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchBySingleItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SearchBySingleItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SignIn$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SignIn$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/classes/HomePageObjectModule/SignIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/AmazonTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/DropDownTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/DropDownTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/HoverOver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/HoverOver$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/HoverOver$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/HoverOver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/SignInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/SignInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestClickElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestSearchBySingleItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestSearchBySingleItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestSearchBySingleItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazone/target/test-classes/homePageObjectModule/TestSearchBySingleItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,14 +177,14 @@
     <session id="129259042">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="8" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,7 +192,8 @@
           <entry key="class" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="177" />
+          <entry key="java" value="194" />
+          <entry key="json" value="1" />
           <entry key="null/MyMom/Siddique" value="3" />
           <entry key="null/PNT/DropDown" value="7" />
           <entry key="null/Palma/Uzzal" value="2" />
@@ -158,7 +201,7 @@
           <entry key="null/PalmaDatabase/Uzzal Palma" value="1" />
           <entry key="null/user/profile" value="1" />
           <entry key="png" value="14" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -167,23 +210,24 @@
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="14" />
-          <entry key="JAVA" value="177" />
+          <entry key="JAVA" value="194" />
+          <entry key="JSON" value="1" />
           <entry key="MONGO" value="15" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="67" />
-          <entry key="java" value="3307" />
-          <entry key="xml" value="150" />
+          <entry key="dummy" value="92" />
+          <entry key="java" value="3351" />
+          <entry key="xml" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3307" />
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="XML" value="150" />
+          <entry key="JAVA" value="3351" />
+          <entry key="PLAIN_TEXT" value="92" />
+          <entry key="XML" value="162" />
         </counts>
       </usages-collector>
     </session>
@@ -194,51 +238,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/dataReader/GoogleSheetsPage.java">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/HoverOverElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+            <state relative-caret-position="28">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchBySingleItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignInAmazon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElementHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1606">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="70" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HomePageWebElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchByArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="48" column="50" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchByArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -265,11 +355,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RestApi/pom.xml" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/homePageTest/HomePageSearch.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/homePageTest/LogInNegativePositive.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/homePageTest/LogInPageClick.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/homePageTest/LogInPageInputData.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/homePageTest/NewFacebookSignUp.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/homePageTest/HomePageSearchTest.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/homePageTest/LogInNegativePositiveTest.java" />
@@ -295,7 +380,6 @@
         <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDown.java" />
         <option value="$PROJECT_DIR$/Amazone/src/main/java/homePageTest/SearchByArrayList.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" />
         <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/HoverOverElements.java" />
         <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HoverOver.java" />
         <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java" />
@@ -307,8 +391,6 @@
         <option value="$PROJECT_DIR$/PNT/src/test/resources/PNTTestRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDownElement.java" />
         <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchBySingleItem.java" />
         <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchBySingleItem.java" />
@@ -316,6 +398,14 @@
         <option value="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElement.java" />
+        <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElementHomePage.java" />
+        <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchByArrayList.java" />
+        <option value="$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignInAmazon.java" />
+        <option value="$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HomePageWebElementTest.java" />
       </list>
     </option>
   </component>
@@ -352,7 +442,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -380,6 +470,65 @@
             <path>
               <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePageObjectModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePageObjectModule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -490,17 +639,54 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="googleAPIs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539365394304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539388350324" />
+    <property name="jmeter.home" value="" />
+    <property name="jmeter.override" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -547,34 +733,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LogInByExeclDataReaderTest.loginTestByDataProvider">
-    <configuration name="InputDataFmGoogleSheetsPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+  <component name="RunManager" selected="TestNG.HomePageWebElementTest.clickTopBar">
+    <configuration name="HomePageWebElementTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataReaderTest.*" />
+          <option name="PATTERN" value="homePageObjectModule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="DataReaderTest.InputDataFmGoogleSheetsPageTest" />
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.HomePageWebElementTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputDataFmGoogleSheetsPageTest.testLogInByInvalidIdPassUsingGoogleSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+    <configuration name="HomePageWebElementTest.clickTopBar" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataReaderTest.*" />
+          <option name="PATTERN" value="homePageObjectModule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="DataReaderTest.InputDataFmGoogleSheetsPageTest" />
-      <option name="METHOD_NAME" value="testLogInByInvalidIdPassUsingGoogleSheet" />
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.HomePageWebElementTest" />
+      <option name="METHOD_NAME" value="clickTopBar" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -582,33 +768,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInByExeclDataReaderTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+    <configuration name="HoverOverElementTest.testHoverDepartments" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataReaderTest.*" />
+          <option name="PATTERN" value="homePageObjectModule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="DataReaderTest.LogInByExeclDataReaderTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataReaderTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DataReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="DataReaderTest.LogInByExeclDataReaderTest" />
-      <option name="METHOD_NAME" value="loginTestByDataProvider" />
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.HoverOverElementTest" />
+      <option name="METHOD_NAME" value="testHoverDepartments" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -616,17 +786,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInByExeclDataReaderTest.readFromExcelSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+    <configuration name="SignInTest.signInAmazon" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataReaderTest.*" />
+          <option name="PATTERN" value="homePageObjectModule.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataReaderTest" />
-      <option name="MAIN_CLASS_NAME" value="DataReaderTest.LogInByExeclDataReaderTest" />
-      <option name="METHOD_NAME" value="readFromExcelSheet" />
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.SignInTest" />
+      <option name="METHOD_NAME" value="signInAmazon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchByArrayList.SearchWithArrayList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePageObjectModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePageObjectModule" />
+      <option name="MAIN_CLASS_NAME" value="homePageObjectModule.TestSearchByArrayList" />
+      <option name="METHOD_NAME" value="SearchWithArrayList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -635,19 +823,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LogInByExeclDataReaderTest" />
-      <item itemvalue="TestNG.InputDataFmGoogleSheetsPageTest" />
-      <item itemvalue="TestNG.LogInByExeclDataReaderTest.loginTestByDataProvider" />
-      <item itemvalue="TestNG.InputDataFmGoogleSheetsPageTest.testLogInByInvalidIdPassUsingGoogleSheet" />
-      <item itemvalue="TestNG.LogInByExeclDataReaderTest.readFromExcelSheet" />
+      <item itemvalue="TestNG.HoverOverElementTest.testHoverDepartments" />
+      <item itemvalue="TestNG.TestSearchByArrayList.SearchWithArrayList" />
+      <item itemvalue="TestNG.SignInTest.signInAmazon" />
+      <item itemvalue="TestNG.HomePageWebElementTest" />
+      <item itemvalue="TestNG.HomePageWebElementTest.clickTopBar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogInByExeclDataReaderTest.loginTestByDataProvider" />
-        <item itemvalue="TestNG.LogInByExeclDataReaderTest.readFromExcelSheet" />
-        <item itemvalue="TestNG.InputDataFmGoogleSheetsPageTest" />
-        <item itemvalue="TestNG.InputDataFmGoogleSheetsPageTest.testLogInByInvalidIdPassUsingGoogleSheet" />
-        <item itemvalue="TestNG.LogInByExeclDataReaderTest" />
+        <item itemvalue="TestNG.HomePageWebElementTest.clickTopBar" />
+        <item itemvalue="TestNG.HomePageWebElementTest" />
+        <item itemvalue="TestNG.SignInTest.signInAmazon" />
+        <item itemvalue="TestNG.TestSearchByArrayList.SearchWithArrayList" />
+        <item itemvalue="TestNG.HoverOverElementTest.testHoverDepartments" />
       </list>
     </recent_temporary>
   </component>
@@ -665,41 +853,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputDataFmGoogleSheetsPageTest - 2018.10.10 at 00h 50m 11s.xml">
-      <configuration name="InputDataFmGoogleSheetsPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInByExeclDataReaderTest - 2018.10.10 at 16h 42m 44s.xml">
-      <configuration name="LogInByExeclDataReaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInByExeclDataReaderTest_loginTestByDataProvider - 2018.10.10 at 16h 46m 46s.xml">
-      <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInByExeclDataReaderTest_loginTestByDataProvider - 2018.10.10 at 20h 16m 43s.xml">
-      <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InputDataFmGoogleSheetsPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.12 at 13h 13m 51s.xml">
-      <configuration name="InputDataFmGoogleSheetsPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InputDataFmGoogleSheetsPageTest_testLogInByInvalidIdPassUsingGoogleSheet - 2018.10.12 at 13h 14m 25s.xml">
-      <configuration name="InputDataFmGoogleSheetsPageTest.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InputDataFmGoogleSheetsPageTest - 2018.10.12 at 13h 15m 43s.xml">
-      <configuration name="InputDataFmGoogleSheetsPageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInByExeclDataReaderTest_readFromExcelSheet - 2018.10.12 at 13h 26m 14s.xml">
-      <configuration name="LogInByExeclDataReaderTest.readFromExcelSheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LogInByExeclDataReaderTest_readFromExcelSheet - 2018.10.12 at 13h 26m 58s.xml">
-      <configuration name="LogInByExeclDataReaderTest.readFromExcelSheet" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LogInByExeclDataReaderTest_loginTestByDataProvider - 2018.10.12 at 13h 29m 11s.xml">
       <configuration name="LogInByExeclDataReaderTest.loginTestByDataProvider" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverOverElementTest_testHoverAmazonTryPrime - 2018.10.12 at 18h 21m 19s.xml">
+      <configuration name="HoverOverElementTest.testHoverAmazonTryPrime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverOverElementTest_testHoverAmazonTryPrime - 2018.10.12 at 18h 25m 12s.xml">
+      <configuration name="HoverOverElementTest.testHoverAmazonTryPrime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverOverElementTest_testHoverDepartments - 2018.10.12 at 18h 27m 00s.xml">
+      <configuration name="HoverOverElementTest.testHoverDepartments" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverOverElementTest_testHoverDepartments - 2018.10.12 at 18h 27m 16s.xml">
+      <configuration name="HoverOverElementTest.testHoverDepartments" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchByArrayList_SearchWithArrayList - 2018.10.12 at 19h 12m 27s.xml">
+      <configuration name="TestSearchByArrayList.SearchWithArrayList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchByArrayList_SearchWithArrayList - 2018.10.12 at 19h 43m 59s.xml">
+      <configuration name="TestSearchByArrayList.SearchWithArrayList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchByArrayList_SearchWithArrayList - 2018.10.12 at 19h 45m 30s.xml">
+      <configuration name="TestSearchByArrayList.SearchWithArrayList" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignInTest_signInAmazon - 2018.10.12 at 19h 47m 41s.xml">
+      <configuration name="SignInTest.signInAmazon" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageWebElementTest - 2018.10.12 at 19h 51m 21s.xml">
+      <configuration name="HomePageWebElementTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76506025" visible="true" weight="0.22460657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76506025" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,15 +897,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.23493975" side_tool="true" weight="0.24320458" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3759036" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33373493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3093623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20788044" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23306233" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3568521" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.35636857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -763,27 +952,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/homePageTest/LogInPageClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="85" column="144" selection-start-line="85" selection-start-column="144" selection-end-line="85" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/homePageTest/LogInPageInputData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="102" column="144" selection-start-line="102" selection-start-column="144" selection-end-line="102" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/homePageTest/NewFacebookSignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="84" column="144" selection-start-line="84" selection-start-column="144" selection-end-line="84" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/productsPageObjects/ProductsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-820">
@@ -833,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HoverOverElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/DropDownElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -850,43 +1011,10 @@
     <entry file="file://$PROJECT_DIR$/RestApi/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazone/src/test/resources/AmazonTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="71" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/homePageTest/DropDownTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,13 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="47" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -957,34 +1078,6 @@
     <entry file="file://$PROJECT_DIR$/Amazone/screenshots/clickOnAccountAndList (09.25.2018-16:31PM).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDownElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/HoverOverElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchByArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchBySingleItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchBySingleItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -997,41 +1090,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestClickElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchByArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2659">
-          <caret line="1525" column="18" selection-start-line="1525" selection-start-column="18" selection-end-line="1525" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1367">
-          <caret line="378" column="65" lean-forward="true" selection-start-line="378" selection-start-column="65" selection-end-line="378" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1040,8 +1102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/dataReader/GoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+        <state relative-caret-position="741">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1050,7 +1112,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/InputDataFmGoogleSheetsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="513">
           <caret line="36" column="70" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="70" />
         </state>
       </provider>
@@ -1058,22 +1120,150 @@
     <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="380">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/DataReaderTest/LogInByExeclDataReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/dataReader/LogInByExcelDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/homePageTest/DropDownTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HoverOverElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/DropDownElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/HoverOverElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="1224" column="18" selection-start-line="1224" selection-start-column="18" selection-end-line="1224" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/TestSearchByArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchByArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SearchBySingleItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/SignInAmazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/SignInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/main/java/HomePageObjectModule/WebElementHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1606">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazone/src/test/java/homePageObjectModule/HomePageWebElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
           </folding>
         </state>
       </provider>

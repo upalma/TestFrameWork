@@ -13,7 +13,7 @@
             <class name="homePageObjectModule.DropDownElementTest"/>
             <class name="homePageObjectModule.HoverOverElementTest"/>
             <class name="homePageObjectModule.SignInTest"/>
-            <class name="homePageObjectModule.TestClickElement"/>
+            <class name="homePageObjectModule.HomePageWebElementTest"/>
             <class name="homePageObjectModule.TestSearchByArrayList"/>
             <class name="homePageObjectModule.TestSearchBySingleItem"/>
         </classes>
