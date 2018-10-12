@@ -6,11 +6,9 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import static googleAPIs.GoogleSheetReader.getSheetsService;
 
 public class GoogleSheetsPage extends CommonAPI {

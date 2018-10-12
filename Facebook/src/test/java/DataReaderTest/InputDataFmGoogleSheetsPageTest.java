@@ -37,6 +37,6 @@ public class InputDataFmGoogleSheetsPageTest extends GoogleSheetsPage {
             System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
             i++;
         }
-        System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
+        System.out.println("TestPassed");
     }
 }
