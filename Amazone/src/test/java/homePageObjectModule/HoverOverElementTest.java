@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class HoverOver extends HoverOverElements {
+public class HoverOverElementTest extends HoverOverElements {
     HoverOverElements hover;
     @BeforeMethod
     public void init(){

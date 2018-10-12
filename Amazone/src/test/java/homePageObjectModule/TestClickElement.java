@@ -1,16 +1,16 @@
 package homePageObjectModule;
 
-import HomePageObjectModule.ClickElement;
+import HomePageObjectModule.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestClickElement extends HomePageObjectModule.ClickElement {
-    ClickElement clickElement;
+public class TestClickElement extends WebElement {
+    WebElement clickElement;
 
     @BeforeMethod
     public void initialization() {
-        clickElement = PageFactory.initElements(driver, ClickElement.class);
+        clickElement = PageFactory.initElements(driver, WebElement.class);
     }
     @Test
     public void clickTopBar(){

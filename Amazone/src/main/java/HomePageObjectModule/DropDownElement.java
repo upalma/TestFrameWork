@@ -10,7 +10,7 @@ import utility.ConnectDB;
 
 import java.util.List;
 
-public class DropDown extends CommonAPI {
+public class DropDownElement extends CommonAPI {
     ConnectDB objDB = new ConnectDB();
     @FindBy(css = ".nav-search-dropdown.searchSelect")
     public static WebElement dropDownAll;

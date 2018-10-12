@@ -5,42 +5,42 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-public class ClickElement extends CommonAPI {
+public class WebElement extends CommonAPI {
 
     @FindBy(id = "nav-upnav")
-    WebElement topBar;
+    org.openqa.selenium.WebElement topBar;
     @FindBy(css = "#nav-logo > a.nav-logo-link > span.nav-sprite.nav-logo-base")
-    WebElement amazonTryPrimeBox;
+    org.openqa.selenium.WebElement amazonTryPrimeBox;
     @FindBy(css = "#nav-logo > a.nav-sprite.nav-logo-tagline.nav-prime-try")
-    WebElement amazonTryPrimeText;
+    org.openqa.selenium.WebElement amazonTryPrimeText;
     @FindBy(id = "nav-packard-glow-loc-icon")
-    WebElement locationIcon;
+    org.openqa.selenium.WebElement locationIcon;
     @FindBy(id = "glow-ingress-line1")
-    WebElement deliverToText;
+    org.openqa.selenium.WebElement deliverToText;
     @FindBy(id = "glow-ingress-line2")
-    WebElement deliveyAddressText;
+    org.openqa.selenium.WebElement deliveyAddressText;
     @FindBy(css = "#nav-global-location-slot>span>a")
-    WebElement deliveryToBox;
+    org.openqa.selenium.WebElement deliveryToBox;
     @FindBy(id = "nav-your-amazon")
-    WebElement yourAmazonLink;
+    org.openqa.selenium.WebElement yourAmazonLink;
     @FindBy(css = "#nav-xshop > a:nth-child(3)")
-    WebElement todayDealsLink;
+    org.openqa.selenium.WebElement todayDealsLink;
     @FindBy(css = "#nav-xshop > a:nth-child(4)")
-    WebElement giftCardLink;
+    org.openqa.selenium.WebElement giftCardLink;
     @FindBy(css = "#nav-xshop > a:nth-child(5)")
-    WebElement registryLink;
+    org.openqa.selenium.WebElement registryLink;
     @FindBy(css = "#//*[@id=\"nav-xshop\"]/a[5]")
-    WebElement sellLink;
+    org.openqa.selenium.WebElement sellLink;
     @FindBy(css = "#nav-xshop > a:nth-child(7)")
-    WebElement treasureTruckLink;
+    org.openqa.selenium.WebElement treasureTruckLink;
     @FindBy(css = "#nav-xshop > a:nth-child(8)")
-    WebElement helpLink;
+    org.openqa.selenium.WebElement helpLink;
     @FindBy(id = "nav-link-accountList")
-    WebElement AccountAndListBox;
+    org.openqa.selenium.WebElement AccountAndListBox;
     @FindBy(id = "nav-link-accountList")
-    WebElement AccountAndList;
+    org.openqa.selenium.WebElement AccountAndList;
     @FindBy(xpath = "//*[@id=\"nav-al-wishlist\"]/a[3]/span")
-    WebElement findaGiftLink;
+    org.openqa.selenium.WebElement findaGiftLink;
 
     public void topBarClick() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

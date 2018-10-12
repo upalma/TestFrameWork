@@ -10,8 +10,8 @@
     <parameter name="url" value="https://www.amazon.com/"/>
     <test name = "Amazon Test case">
         <classes>
-            <class name="homePageObjectModule.DropDownTest"/>
-            <class name="homePageObjectModule.HoverOver"/>
+            <class name="homePageObjectModule.DropDownElementTest"/>
+            <class name="homePageObjectModule.HoverOverElementTest"/>
             <class name="homePageObjectModule.SignInTest"/>
             <class name="homePageObjectModule.TestClickElement"/>
             <class name="homePageObjectModule.TestSearchByArrayList"/>

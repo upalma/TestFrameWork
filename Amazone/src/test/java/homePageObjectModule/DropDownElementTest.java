@@ -1,16 +1,16 @@
 package homePageObjectModule;
 
-import HomePageObjectModule.DropDown;
+import HomePageObjectModule.DropDownElement;
 import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class DropDownTest extends DropDown {
+public class DropDownElementTest extends DropDownElement {
     @BeforeMethod
     public void init(){
-        DropDown obj = PageFactory.initElements(driver,DropDown.class);
+        DropDownElement obj = PageFactory.initElements(driver, DropDownElement.class);
     }
     @Test
     public void test1(){
